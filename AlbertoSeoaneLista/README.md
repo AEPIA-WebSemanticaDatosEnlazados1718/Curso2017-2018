@@ -145,17 +145,38 @@ Sabiendo las relaciones existentes entre nuestros términos es necesario modelar
 
 En este caso usaremos las más comunes ya que están más probadas y son reutilizadas por muchas más ontologías. Las elegidas son: [*vcard*](http://www.w3.org/2006/vcard/ns) que nos ofrece muchos términos comunes como localizaciones, regiones, etc. [*owl*](http://www.w3.org/2002/07/owl) que nos ofrece las propiedades más comunes. *[rdf](http://www.w3.org/1999/02/22-rdf-syntax-ns) y [rdfx](http://www.w3.org/2000/01/rdf-schema)*. Podemos encontrar las ontologías en las url's proporcionadas
 
+Para cada museo establecemos las siguientes propiedades
+
+
+| Termino   | Tipo                                                                               | Propiedad                                                                                    |
+|-----------|------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
+| Direccion | [http://www.w3.org/2006/vcard/ns#Address](http://www.w3.org/2006/vcard/ns#Address) | [http://www.w3.org/2006/vcard/ns#hasAddress](http://www.w3.org/2006/vcard/ns#hasAddress)     |
+| Email     | [http://www.w3.org/2006/vcard/ns#Email](http://www.w3.org/2006/vcard/ns#Email)     | [http://www.w3.org/2006/vcard/ns#hasEmail](http://www.w3.org/2006/vcard/ns#hasEmail)         |
+| Municipio | [http://www.w3.org/2006/vcard/ns#region](http://www.w3.org/2006/vcard/ns#region)   | [http://www.w3.org/2006/vcard/ns#hasRegion](http://www.w3.org/2006/vcard/ns#hasRegion)       |
+| Pedania   | [http://www.w3.org/2006/vcard/ns#region](http://www.w3.org/2006/vcard/ns#region)   | [http://www.w3.org/2006/vcard/ns#hasRegion](http://www.w3.org/2006/vcard/ns#hasRegion)       |
+| Fax       | [http://www.w3.org/2006/vcard/ns#tel](http://www.w3.org/2006/vcard/ns#tel)         | [http://www.w3.org/2006/vcard/ns#hasTelephone](http://www.w3.org/2006/vcard/ns#hasTelephone) |
+| Telefono  | [http://www.w3.org/2006/vcard/ns#tel](http://www.w3.org/2006/vcard/ns#tel)         | [http://www.w3.org/2006/vcard/ns#hasTelephone](http://www.w3.org/2006/vcard/ns#hasTelephone) |
+| URL       | [http://www.w3.org/2006/vcard/ns#name](http://www.w3.org/2006/vcard/ns#name)       | [http://www.w3.org/2006/vcard/ns#label](http://www.w3.org/2006/vcard/ns#label)               |
+
+
+
+
+2.5 Proceso de transformación, justificando qué herramientas se han usado para la transformación de los datos y qué pasos se han seguido para su limpieza y adecuación al resultado esperado
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+En primer lugar tenemos que realizar una serie de operaciones para limpiar los datos, eliminamos las columnas latitud y longitud así como foto. estas operaciones las realizamos en una herramienta de hoja de cálculo, pero realmente se pueden hacer en openRefine. Una vez tenemos los datos más o menos limpios creamos un nuevo proyecto en openRefine e importamos los datos desde CSV especificando como separador ";". Ahora tenemos que separar los teléfonos en varias columnas, y ya tendríamos los datos listos para asignar tipos. 
+
+Una vez que comprobamos que los datos han sido cargados correctamente, tenemos que asignar un tipo a cada uno de los datos. A continuación tenemos que encontrar un elemento que pueda identificar inequívocamente cada elemento, para poder generar las URL's, en este caso utilizamos nombre dado que es mucho más identificativo que un código y es más fácil de entender por un humano, que es uno de los objetivos de la web semántica. A continuación agrupamos celdas similares, esto es una herramienta que proporciona openRefine que permite identificar automáticamente si algunas instancias son las mismas. Para finalizar presentamos la estrategia de nombrado anteriormente citada en el apartado 2.3 y añadimos  las propiedades a los recursos.
 
 
 
 
 
 
-
-
-
-
-
+5 Bibliografía
+==============
+[Wikipedia](https://es.wikipedia.org/wiki/Wikipedia:Portada)
+Apuntes de la asignatura.
 
 
 
