@@ -79,4 +79,106 @@ Como comentarios a la explicación de los datos decir que el tratamiento de los 
 2.3 Estrategia de nombrado, donde se explique cómo se van a nombrar los recursos tanto del vocabulario a desarrollar como de los datos a generar.
 --------------------------------------------------------------------------------------------------------------------------------------------------
 
+Para nombrar el vocabulario utilizaremos (/) para los elementos y la (#) para los términos como hemos visto en las clases. La estrategia de nombrado entonces sería así:
+
+- Dominio de las URL's: http://museosdemurciaa.es
+
+- Terminos:  Almacenaremos la ontología en  http://museosdemurciaa.es/ontologia/ y accederemos a cada elemento  http://museosdemurciaa.es/ontologia#TERMINO
+
+- Instacias: para acceder a cada instancia de un termino utilizaremos  http://museosdemurciaa.es/museo/ITEM
+
+2.4 Desarrollo del vocabulario, indicando el proceso de implementación del vocabulario y como este soporta los datos de origen. No se exige una ontología compleja, sino un vocabulario suficiente para describir los conceptos y propiedades de los datos a transformar.
+-------------------------------------------------------------
+
+En primer lugar tenemos que identificar los requisitos de nuestro vocabulario, para esto lo dessarrollaremos en forma de preguntas de competencia, como mínimo debería haber una pregunta para cada uno de los datos que nos interesa recuperar, aunque sus combinaciones también pueden ser interesantes. 
+
+- Requisitos funcionales:
+..- RF1: ¿Cuál es la dirección del museo?
+
+..- RF2: ¿Código postal del museo?
+
+..- RF3: ¿Municio al que pertenece el museo?
+
+..- RF4: ¿Pedanía a la que pertenece el museo?
+
+..- RF5 ¿Teléfono del museo?
+
+..- RF6 ¿Fax del museo?
+
+..- RF7 ¿Correo electrónico del museo?
+
+..- RF8 ¿Cuál es la página web del museo?
+
+..- RF9 ¿Más detalles del museo?
+
+..- RF10 ¿todos los museos por municipio? ¿y pedanía?
+
+- Requisitos no funcionales:
+
+..- RNF1: La ontología debe estar en español.
+
+..- RNF2: Utilizar formatos estándar.
+
+Ahora podemos proseguir con la extracción de terminos, viendo el dataset y analizando los requisitos podemos extraer los siguientes términos:
+
+- *Museo*:  lugar en que se conservan y exponen colecciones de objetos artísticos, científicos, etc. Sinónimos: galería, exposición, edificio artístico.
+
+- *Dirección*: Lugar donde está establecido un  local o persona.
+
+- *Código postal*: Código de cinco números que demarca una población y distrito para el servicio de correos.
+
+- *Municipio*: Un municipio es una entidad administrativa que puede agrupar una sola localidad o varias y que puede hacer referencia a una ciudad o un pueblo.
+
+- *Pedanía*: Núcleo de población pequeño y con pocos habitantes que depende de un municipio y que está bajo la jurisdicción de un alcalde o de un juez.
+
+- *Teléfono*: Número de localización geoTelefónica.
+
+- *Fax*: Número de localización facsimil.
+
+- *Email*: Dirección de correo electronico.
+
+- *URL*: es un documento o información electrónica capaz de contener texto, sonido, vídeo, programas, enlaces, imágenes y muchas otras cosas, adaptada para la llamada World Wide Web (WWW) y que puede ser accedida mediante un navegador web.
+
+Una vez establecido los términos que vamos a utilizar es necesario hacer una conceptualización del vocabulario. Nuestro vocabulario es muy sencillo, el dominio es Cultura, aunque en aglunos lugares se guarda como Instituciones, pero son las que menos. Un museo tiene una dirección física compuesta por una dirección y un código postar pertenece a un municipio que pertenece a una pedanía. El museo además tiene datos de contacto como teléfono, fax, email y dirección web (URL).
+
+Sabiendo las relaciones existentes entre nuestros términos es necesario modelarlo a través de una ontología, como nuestro dominio es un dominio típico, sobre todo en las relaciones, por lo tanto podemos reutilizar ontologías ya existentes.
+
+En este caso usaremos las más comunes ya que están más probadas y son reutilizadas por muchas más ontologías. Las elegidas son: [*vcard*](http://www.w3.org/2006/vcard/ns) que nos ofrece muchos términos comunes como localizaciones, regiones, etc. [*owl*](http://www.w3.org/2002/07/owl) que nos ofrece las propiedades más comunes. *[rdf](http://www.w3.org/1999/02/22-rdf-syntax-ns) y [rdfx](http://www.w3.org/2000/01/rdf-schema)*. Podemos encontrar las ontologías en las url's proporcionadas
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
