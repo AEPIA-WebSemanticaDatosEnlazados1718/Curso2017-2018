@@ -93,31 +93,31 @@ Para nombrar el vocabulario utilizaremos (/) para los elementos y la (#) para lo
 En primer lugar tenemos que identificar los requisitos de nuestro vocabulario, para esto lo dessarrollaremos en forma de preguntas de competencia, como mínimo debería haber una pregunta para cada uno de los datos que nos interesa recuperar, aunque sus combinaciones también pueden ser interesantes. 
 
 - Requisitos funcionales:
-..- RF1: ¿Cuál es la dirección del museo?
+-- RF1: ¿Cuál es la dirección del museo?
 
-..- RF2: ¿Código postal del museo?
+-- RF2: ¿Código postal del museo?
 
-..- RF3: ¿Municio al que pertenece el museo?
+-- RF3: ¿Municio al que pertenece el museo?
 
-..- RF4: ¿Pedanía a la que pertenece el museo?
+-- RF4: ¿Pedanía a la que pertenece el museo?
 
-..- RF5 ¿Teléfono del museo?
+-- RF5 ¿Teléfono del museo?
 
-..- RF6 ¿Fax del museo?
+-- RF6 ¿Fax del museo?
 
-..- RF7 ¿Correo electrónico del museo?
+-- RF7 ¿Correo electrónico del museo?
 
-..- RF8 ¿Cuál es la página web del museo?
+-- RF8 ¿Cuál es la página web del museo?
 
-..- RF9 ¿Más detalles del museo?
+-- RF9 ¿Más detalles del museo?
 
-..- RF10 ¿todos los museos por municipio? ¿y pedanía?
+-- RF10 ¿todos los museos por municipio? ¿y pedanía?
 
 - Requisitos no funcionales:
 
-..- RNF1: La ontología debe estar en español.
+-- RNF1: La ontología debe estar en español.
 
-..- RNF2: Utilizar formatos estándar.
+-- RNF2: Utilizar formatos estándar.
 
 Ahora podemos proseguir con la extracción de terminos, viendo el dataset y analizando los requisitos podemos extraer los siguientes términos:
 
