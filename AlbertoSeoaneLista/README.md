@@ -169,6 +169,18 @@ En primer lugar tenemos que realizar una serie de operaciones para limpiar los d
 Una vez que comprobamos que los datos han sido cargados correctamente, tenemos que asignar un tipo a cada uno de los datos. A continuación tenemos que encontrar un elemento que pueda identificar inequívocamente cada elemento, para poder generar las URL's, en este caso utilizamos nombre dado que es mucho más identificativo que un código y es más fácil de entender por un humano, que es uno de los objetivos de la web semántica. A continuación agrupamos celdas similares, esto es una herramienta que proporciona openRefine que permite identificar automáticamente si algunas instancias son las mismas. Para finalizar presentamos la estrategia de nombrado anteriormente citada en el apartado 2.3 y añadimos  las propiedades a los recursos.
 
 
+2.6 Enlazado, donde se explique qué enlaces se han generado con fuentes externas y mediante qué herramientas.
+------------------------------------------------------------------------------------------------------------
+Ahora tenemos que observar cuales de nuestras variables son candidadtas a ser enlazadas. Unos buenos candidatos son Muiciipio y Pedanía dado que normalmente los lugares son buenos elementos para enlazar. Por otra parte también podemos enlazar nombre dado que es uno de los datos más importantes pero también es más susceptible de que no sea enlazado correctamente.
+
+Para poder enlazar los datos tenemos que añadir en openRefine un servicio de reconciliación, en nuestro caso usaremos DBpedia dado que está en castellano y es uno de los más usados y completos.
+
+Ahora para reconcilizar con DBpedia nuestros datos tenemos que seleccionar las columnas municipio y pedanía y lo reconciliamos con http://dbpedia.org/ontology/PopulatedPlace. Dejamos por defecto las opciones y enlazamos manualmente aquellas que no encuentre, creamos dos columnas populatedPlaceM y populatedPlaceP. Además tenemos que establecer la propiedad owl:sameAs para apuntar a los nodos y rdfs:label para nombrar a los nodos municipio y pedania. Ahora enlazaremos la columna nombre, como comentamos anteriormente la columna nombre no tiene una clase a la que podamos enlazar porque cada vocabulario podría ponerlo de una forma distinta. Pero podemos realizar un enlazado sin clase creando la coluna columna NAMES con y rdfs:label que apunta a la columna nombre, y tenemos que establecer las relaciones correspondientes identificadas anteriormente: vcard:hasURL apunta a url vcard:hasTelephone apunta a la columna telefonoe, etc.
+
+
+
+
+
 
 
 
@@ -176,7 +188,10 @@ Una vez que comprobamos que los datos han sido cargados correctamente, tenemos q
 5 Bibliografía
 ==============
 [Wikipedia](https://es.wikipedia.org/wiki/Wikipedia:Portada)
+
 Apuntes de la asignatura.
+
+
 
 
 
