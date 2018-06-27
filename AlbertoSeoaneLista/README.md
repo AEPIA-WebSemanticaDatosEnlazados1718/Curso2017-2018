@@ -178,15 +178,28 @@ Para poder enlazar los datos tenemos que añadir en openRefine un servicio de re
 Ahora para reconcilizar con DBpedia nuestros datos tenemos que seleccionar las columnas municipio y pedanía y lo reconciliamos con http://dbpedia.org/ontology/PopulatedPlace. Dejamos por defecto las opciones y enlazamos manualmente aquellas que no encuentre, creamos dos columnas populatedPlaceM y populatedPlaceP. Además tenemos que establecer la propiedad owl:sameAs para apuntar a los nodos y rdfs:label para nombrar a los nodos municipio y pedania. Ahora enlazaremos la columna nombre, como comentamos anteriormente la columna nombre no tiene una clase a la que podamos enlazar porque cada vocabulario podría ponerlo de una forma distinta. Pero podemos realizar un enlazado sin clase creando la coluna columna NAMES con y rdfs:label que apunta a la columna nombre, y tenemos que establecer las relaciones correspondientes identificadas anteriormente: vcard:hasURL apunta a url vcard:hasTelephone apunta a la columna telefonoe, etc.
 
 
+3 Aplicación y explotación, explicando qué funcionalidades aporta la solución desarrollada y cómo ésta hace uso de los datos y enlaces generados para aportar valor al usuario final. En este punto de deben explicar las queries SPARQL o el código en Jena usado para su implementación.
+-------------------------------------------------------------------------------------------------
 
+La aplicación es un código muy sencillo que nos permite realizar querys contra nuestro vocabulario (endpoint), para esto hemos configurado un script de R utilizando el paquete ‘SPARQL’ que apunta a nuestro vocabulario y nos permite obtener los datos, primero hemos configurado nuestro endpoint como hemos nombrado arriba.
 
+```
+prefix <- c("lop","http://semanticweb.cs.vu.nl/poseidon/ns/instances/",
+"eez","http://semanticweb.cs.vu.nl/poseidon/ns/eez/")
+```
 
+4 Conclusiones
+--------------
 
+El concepto de datos enlazados en la web es realmente bueno, poder tener un macro conjunto de información que tenga un estándar para estar relacionada es muy interesante a la hora de trabajar con grandes volúmenes de datos. En la época actual, la del big data, donde cada organización genera tanta información, establecer protocolos para ordenarla es vital.
 
+No obstante me he encontrado con bastantes problemas a la hora de realizar la propuesta de trabajo, en primer lugar muchos conjuntos de datos están abandonados y sin mantenimiento. Muchos de los recursos recomendados por la red ya no están accesibles. Además la tarea de enlazado reafirmo que no existe información ent todos los dominios, por ejemplo al enlazar nuestros datos , encontramos muy poca información
 
+Como conclusión, los datos enlazados permiten añadir una capa más de eficacia a la búsqueda de información por la red, pero no es una tarea muy explotada. Se sustenta mucho en el concepto de comunidad libre donde la gente comparte sus datos, pero parece que no es suficiente porque muchos proyectos se acaban abandonando cuando ya eran funcionales. Una posible aplicación que proporciene más beneficio económico podría impulsar este tipo de actividades.
 
 5 Bibliografía
 ==============
+
 [Wikipedia](https://es.wikipedia.org/wiki/Wikipedia:Portada)
 
 Apuntes de la asignatura.
