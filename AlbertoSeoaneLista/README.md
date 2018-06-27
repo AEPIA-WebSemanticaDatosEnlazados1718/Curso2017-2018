@@ -181,13 +181,23 @@ Ahora para reconcilizar con DBpedia nuestros datos tenemos que seleccionar las c
 3 Aplicación y explotación, explicando qué funcionalidades aporta la solución desarrollada y cómo ésta hace uso de los datos y enlaces generados para aportar valor al usuario final. En este punto de deben explicar las queries SPARQL o el código en Jena usado para su implementación.
 -------------------------------------------------------------------------------------------------
 
-La aplicación es un código muy sencillo que nos permite realizar querys contra nuestro vocabulario (endpoint), para esto hemos configurado un script de R utilizando el paquete ‘SPARQL’ que apunta a nuestro vocabulario y nos permite obtener los datos, primero hemos configurado nuestro endpoint como hemos nombrado arriba.
+La aplicación es un código muy sencillo que nos permite realizar querys contra nuestro vocabulario (endpoint), para esto hemos configurado un script de R utilizando el paquete ‘SPARQL’ que apunta a nuestro vocabulario y nos permite obtener los datos, primero hemos configurado nuestro endpoint y los vocabularios adicionales.
 
 ```
-prefix <- c("lop","http://semanticweb.cs.vu.nl/poseidon/ns/instances/",
-"eez","http://semanticweb.cs.vu.nl/poseidon/ns/eez/")
-```
+url<- "museosDeMurcia.ttl"
 
+prefix <- c("owl","<http://www.w3.org/2002/07/owl#>",
+"rdf","<http://www.w3.org/1999/02/22-rdf-syntax-ns#>",
+"rdfx","<http://www.w3.org/2001/rdf-schema#>",
+"vcard","<http://www.w3.org/2006/vcard/ns#>",
+)
+```
+ahora simplemente tenemos que definir nuestr query en la variable query de la siguiente forma
+
+```
+query<-'SELECT ?nombre LIMIT 10'
+
+```
 4 Conclusiones
 --------------
 
