@@ -93,6 +93,7 @@ Para nombrar el vocabulario utilizaremos (/) para los elementos y la (#) para lo
 En primer lugar tenemos que identificar los requisitos de nuestro vocabulario, para esto lo dessarrollaremos en forma de preguntas de competencia, como mínimo debería haber una pregunta para cada uno de los datos que nos interesa recuperar, aunque sus combinaciones también pueden ser interesantes. 
 
 - Requisitos funcionales:
+
 -- RF1: ¿Cuál es la dirección del museo?
 
 -- RF2: ¿Código postal del museo?
@@ -150,13 +151,14 @@ Para cada museo establecemos las siguientes propiedades
 
 | Termino   | Tipo                                                                               | Propiedad                                                                                    |
 |-----------|------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
+| Nombre    | String										 | [http://www.w3.org/TR/rdf-schema#label](http://www.w3.org/TR/rdf-schema#label)               |
 | Direccion | [http://www.w3.org/2006/vcard/ns#Address](http://www.w3.org/2006/vcard/ns#Address) | [http://www.w3.org/2006/vcard/ns#hasAddress](http://www.w3.org/2006/vcard/ns#hasAddress)     |
 | Email     | [http://www.w3.org/2006/vcard/ns#Email](http://www.w3.org/2006/vcard/ns#Email)     | [http://www.w3.org/2006/vcard/ns#hasEmail](http://www.w3.org/2006/vcard/ns#hasEmail)         |
 | Municipio | [http://www.w3.org/2006/vcard/ns#region](http://www.w3.org/2006/vcard/ns#region)   | [http://www.w3.org/2006/vcard/ns#hasRegion](http://www.w3.org/2006/vcard/ns#hasRegion)       |
-| Pedania   | [http://www.w3.org/2006/vcard/ns#region](http://www.w3.org/2006/vcard/ns#region)   | [http://www.w3.org/2006/vcard/ns#hasRegion](http://www.w3.org/2006/vcard/ns#hasRegion)       |
-| Fax       | [http://www.w3.org/2006/vcard/ns#tel](http://www.w3.org/2006/vcard/ns#tel)         | [http://www.w3.org/2006/vcard/ns#hasTelephone](http://www.w3.org/2006/vcard/ns#hasTelephone) |
+| Pedania   | [http://www.w3.org/2006/vcard/ns#locality](http://www.w3.org/2006/vcard/ns#locality)| [http://www.w3.org/2006/vcard/ns#hasLocality](http://www.w3.org/2006/vcard/ns#hasLocality)  |
+| Fax       | [http://www.w3.org/2006/vcard/ns#fax](http://www.w3.org/2006/vcard/ns#fax)         | [http://www.w3.org/2006/vcard/ns#hasTelephone](http://www.w3.org/2006/vcard/ns#hasTelephone) |
 | Telefono  | [http://www.w3.org/2006/vcard/ns#tel](http://www.w3.org/2006/vcard/ns#tel)         | [http://www.w3.org/2006/vcard/ns#hasTelephone](http://www.w3.org/2006/vcard/ns#hasTelephone) |
-| URL       | [http://www.w3.org/2006/vcard/ns#name](http://www.w3.org/2006/vcard/ns#name)       | [http://www.w3.org/2006/vcard/ns#label](http://www.w3.org/2006/vcard/ns#label)               |
+| URL       | [http://www.w3.org/2006/vcard/ns#url](http://www.w3.org/2006/vcard/ns#url)         | [http://www.w3.org/2006/vcard/ns#hasUrl](http://www.w3.org/2006/vcard/ns#hasUrl)             |
 
 
 
@@ -166,7 +168,7 @@ Para cada museo establecemos las siguientes propiedades
 
 En primer lugar tenemos que realizar una serie de operaciones para limpiar los datos, eliminamos las columnas latitud y longitud así como foto. estas operaciones las realizamos en una herramienta de hoja de cálculo, pero realmente se pueden hacer en openRefine. Una vez tenemos los datos más o menos limpios creamos un nuevo proyecto en openRefine e importamos los datos desde CSV especificando como separador ";". Ahora tenemos que separar los teléfonos en varias columnas, y ya tendríamos los datos listos para asignar tipos. 
 
-Una vez que comprobamos que los datos han sido cargados correctamente, tenemos que asignar un tipo a cada uno de los datos. A continuación tenemos que encontrar un elemento que pueda identificar inequívocamente cada elemento, para poder generar las URL's, en este caso utilizamos nombre dado que es mucho más identificativo que un código y es más fácil de entender por un humano, que es uno de los objetivos de la web semántica. A continuación agrupamos celdas similares, esto es una herramienta que proporciona openRefine que permite identificar automáticamente si algunas instancias son las mismas. Para finalizar presentamos la estrategia de nombrado anteriormente citada en el apartado 2.3 y añadimos  las propiedades a los recursos.
+Una vez que comprobamos que los datos han sido cargados correctamente, tenemos que asignar un tipo a cada uno de los datos. A continuación tenemos que encontrar un elemento que pueda identificar inequívocamente cada elemento, para poder generar las URL's, en este caso utilizamos un código porque los nombres pueden corresponder a distintos edificios del mismo museo. A continuación agrupamos celdas similares, esto es una herramienta que proporciona openRefine que permite identificar automáticamente si algunas instancias son las mismas. Para finalizar presentamos la estrategia de nombrado anteriormente citada en el apartado 2.3 y añadimos  las propiedades a los recursos.
 
 
 2.6 Enlazado, donde se explique qué enlaces se han generado con fuentes externas y mediante qué herramientas.
@@ -175,7 +177,7 @@ Ahora tenemos que observar cuales de nuestras variables son candidadtas a ser en
 
 Para poder enlazar los datos tenemos que añadir en openRefine un servicio de reconciliación, en nuestro caso usaremos DBpedia dado que está en castellano y es uno de los más usados y completos.
 
-Ahora para reconcilizar con DBpedia nuestros datos tenemos que seleccionar las columnas municipio y pedanía y lo reconciliamos con http://dbpedia.org/ontology/PopulatedPlace. Dejamos por defecto las opciones y enlazamos manualmente aquellas que no encuentre, creamos dos columnas populatedPlaceM y populatedPlaceP. Además tenemos que establecer la propiedad owl:sameAs para apuntar a los nodos y rdfs:label para nombrar a los nodos municipio y pedania. Ahora enlazaremos la columna nombre, como comentamos anteriormente la columna nombre no tiene una clase a la que podamos enlazar porque cada vocabulario podría ponerlo de una forma distinta. Pero podemos realizar un enlazado sin clase creando la coluna columna NAMES con y rdfs:label que apunta a la columna nombre, y tenemos que establecer las relaciones correspondientes identificadas anteriormente: vcard:hasURL apunta a url vcard:hasTelephone apunta a la columna telefonoe, etc.
+Ahora para reconcilizar con DBpedia nuestros datos tenemos que seleccionar las columnas municipio y pedanía y lo reconciliamos con http://dbpedia.org/ontology/PopulatedPlace. Dejamos por defecto las opciones y enlazamos manualmente aquellas que no encuentre, creamos dos columnas PopulatedPlaceM y PopulatedPlaceP. Además tenemos que establecer la propiedad owl:sameAs para apuntar a los nodos y rdfs:label para nombrar a los nodos municipio y pedania. Ahora enlazaremos la columna nombre, como comentamos anteriormente la columna nombre no tiene una clase a la que podamos enlazar porque cada vocabulario podría ponerlo de una forma distinta. Pero podemos realizar un enlazado sin clase creando la  columna nombreDB con y rdfs:label que apunta a la columna nombre, y tenemos que establecer las relaciones correspondientes identificadas anteriormente: vcard:hasURL apunta a url vcard:hasTelephone apunta a la columna teléfono, etc.
 
 
 3 Aplicación y explotación, explicando qué funcionalidades aporta la solución desarrollada y cómo ésta hace uso de los datos y enlaces generados para aportar valor al usuario final. En este punto de deben explicar las queries SPARQL o el código en Jena usado para su implementación.
