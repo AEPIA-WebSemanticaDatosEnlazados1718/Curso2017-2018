@@ -216,6 +216,9 @@ Como conclusión, los datos enlazados permiten añadir una capa más de eficacia
 
 Apuntes de la asignatura.
 
+http://www.programmingr.com/content/sparql-with-r/
+
+
 
 
 
