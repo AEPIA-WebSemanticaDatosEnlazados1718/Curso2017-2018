@@ -203,6 +203,82 @@ ahora simplemente tenemos que definir nuestr query en la variable query de la si
 query<-'SELECT ?nombre LIMIT 10'
 
 ```
+
+Las querys que responden a los requisitos funcionales ya han sido implementadas
+RF1
+```
+query<-'SELECT ?direccion
+WHERE {
+	?museo vcard:hasAddress ?direccion .
+    ?museo rdfs:label ?nombre .	
+	FILTER(str(?nombre) = "Aquarium") .
+}'
+
+```
+
+RF3
+```
+query<-'SELECT ?municipio
+WHERE {
+	?museo vcard:hasRegion ?municipio .
+    ?museo rdfs:label ?nombre .	
+	FILTER(str(?nombre) = "Aquarium") .
+}'
+
+```
+
+RF4
+```
+query<-'SELECT ?pedania
+WHERE {
+	?museo vcard:hasLocality ?pedania .
+    ?museo rdfs:label ?nombre .	
+	FILTER(str(?nombre) = "Aquarium") .
+}
+'
+
+```
+RF5
+```
+query<-'SELECT ?telefono
+WHERE {
+	?museo vcard:hasTelephone ?telefono .
+    ?museo rdfs:label ?nombre .	
+	FILTER(str(?nombre) = "ARQUA Museo Nacional de Arqueología Subacuática") .
+}'
+
+```
+
+RF9
+```
+query<-'SELECT *
+WHERE {
+
+	OPTIONAL{?museo vcard:hasAddress ?direccion} .
+	OPTIONAL{?museo vcard:hasRegion ?municipio} .
+	OPTIONAL{?museo vcard:hasLocality ?pedania} .
+	OPTIONAL{?museo vcard:hasEmail ?email} .
+	OPTIONAL{?museo vcard:hasUrl ?web} .
+	OPTIONAL{?museo vcard:hasTelephone ?telefono} .
+	OPTIONAL{?museo rdfs:label ?nombre} .	
+	FILTER(str(?nombre) = "ARQUA Museo Nacional de Arqueología Subacuática") .
+}'
+
+```
+
+RF10
+```
+query<-'SELECT ?nombre
+WHERE {
+	?museo vcard:hasLocality ?pedania .
+    ?museo rdfs:label ?nombre .	
+	FILTER(str(?pedania) = "MURCIA") .
+}'
+
+```
+
+
+Algunas querys no se han establecido en la memoria por ser iguales a otras
 4 Conclusiones
 --------------
 
