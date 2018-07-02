@@ -1,0 +1,1660 @@
+@prefix dbo: < http://dbpedia.org/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+
+
+<http://museosdemurciaa.es/129> rdfs:label "Aquarium" ;
+	vcard:hasAddress "C/ Cartagena (Antiguo Cuartel de Artillería)"^^vcard:address ;
+	vcard:hasRegion "Murcia"^^vcard:region ;
+	vcard:hasLocality "MURCIA"^^vcard:locality ;
+	vcard:hasTelephone "868 88 85 63"^^vcard:tel ;
+	vcard:hasURL "www.aquarium.um.es"^^vcard:url .
+
+<http://museosdemurciaa.es/Aquarium> rdfs:label "Aquarium" .
+
+<http://museosdemurciaa.es/Murcia> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Murcia" ;
+	owl:sameAs "http://dbpedia.org/resource/Murcia" .
+
+<http://museosdemurciaa.es/MURCIA> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "MURCIA" ;
+	owl:sameAs "http://dbpedia.org/resource/Murcia" .
+
+<http://museosdemurciaa.es/132> vcard:hasAddress "Paseo Alfonso XII, 22"^^vcard:address ;
+	rdfs:label "ARQUA Museo Nacional de Arqueología Subacuática" ;
+	vcard:hasRegion "Cartagena"^^vcard:region ;
+	vcard:hasLocality "CARTAGENA"^^vcard:locality ;
+	vcard:hasTelephone "968 121 166"^^vcard:tel , "968 529 692"^^vcard:Fax ;
+	vcard:hasURL "http://museoarqua.mcu.es"^^vcard:url .
+
+<http://museosdemurciaa.es/ARQUA+Museo+Nacional+de+Arqueolog%C3%ADa+Subacu%C3%A1tica> rdfs:label "ARQUA Museo Nacional de Arqueología Subacuática" .
+
+<http://museosdemurciaa.es/Cartagena> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Cartagena" .
+
+<http://museosdemurciaa.es/CARTAGENA> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "CARTAGENA" .
+
+<http://museosdemurciaa.es/110> rdfs:label "Casa - Museo Don Pepe Marsilla, Bullas 1900" ;
+	vcard:hasAddress "C/ Rosario, 1"^^vcard:address ;
+	vcard:hasRegion "Bullas"^^vcard:region ;
+	vcard:hasLocality "BULLAS"^^vcard:locality ;
+	vcard:hasTelephone "968 657 211"^^vcard:tel ;
+	vcard:hasURL "http://rvbullas.es/rutadelvino/portfolio/casa-museo-don-pepe-marsilla/"^^vcard:url .
+
+<http://museosdemurciaa.es/Casa+-+Museo+Don+Pepe+Marsilla%2C+Bullas+1900> rdfs:label "Casa - Museo Don Pepe Marsilla, Bullas 1900" .
+
+<http://museosdemurciaa.es/Bullas> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Bullas" ;
+	owl:sameAs "http://dbpedia.org/resource/Bullas" .
+
+<http://museosdemurciaa.es/BULLAS> rdfs:label "BULLAS" ;
+	a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	owl:sameAs "http://dbpedia.org/resource/Bullas" .
+
+<http://museosdemurciaa.es/95> vcard:hasAddress "C/ Clavijo, 1"^^vcard:address ;
+	rdfs:label "Casa Museo Antonio Campillo" ;
+	vcard:hasRegion "Ceutí"^^vcard:region ;
+	vcard:hasLocality "CEUTI"^^vcard:locality ;
+	vcard:hasTelephone "968 692 540"^^vcard:tel , "968 691 373"^^vcard:Fax ;
+	vcard:hasURL "www.ceuti.es"^^vcard:url .
+
+<http://museosdemurciaa.es/Casa+Museo+Antonio+Campillo> rdfs:label "Casa Museo Antonio Campillo" .
+
+<http://museosdemurciaa.es/Ceutí> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Ceutí" .
+
+<http://museosdemurciaa.es/CEUTI> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "CEUTI" .
+
+<http://museosdemurciaa.es/91> rdfs:label "Casa Museo de la Semana Santa" ;
+	vcard:hasAddress "C/ Cánovas del Castillo, s/n"^^vcard:address ;
+	vcard:hasRegion "Cieza"^^vcard:region ;
+	vcard:hasLocality "CIEZA"^^vcard:locality ;
+	vcard:hasTelephone "968 453 500"^^vcard:tel .
+
+<http://museosdemurciaa.es/Casa+Museo+de+la+Semana+Santa> rdfs:label "Casa Museo de la Semana Santa" .
+
+<http://museosdemurciaa.es/Cieza> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Cieza" .
+
+<http://museosdemurciaa.es/CIEZA> rdfs:label "CIEZA" ;
+	a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> .
+
+<http://museosdemurciaa.es/5768> rdfs:label "Casa Museo Miguel Hernández" ;
+	vcard:hasAddress "C/ Miguel Hernández, 73"^^vcard:address ;
+	vcard:hasRegion "Orihuela"^^vcard:region ;
+	vcard:hasTelephone "965 30 63 27"^^vcard:tel ;
+	vcard:hasURL "http://www.orihuelaturistica.es"^^vcard:url .
+
+<http://museosdemurciaa.es/Casa+Museo+Miguel+Hern%C3%A1ndez> rdfs:label "Casa Museo Miguel Hernández" .
+
+<http://museosdemurciaa.es/Orihuela> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Orihuela" .
+
+<http://museosdemurciaa.es/4799> rdfs:label "Casa-Museo de los Caballos del Vino" ;
+	vcard:hasAddress "C/ Gregorio Javier, 21"^^vcard:address ;
+	vcard:hasRegion "Jumilla"^^vcard:region ;
+	vcard:hasTelephone " 968 70 56 20 (Reservas) / 868 18 50 96 (Museo)"^^vcard:tel ;
+	vcard:hasURL "www.turismocaravaca.com"^^vcard:url .
+
+<http://museosdemurciaa.es/Casa-Museo+de+los+Caballos+del+Vino> rdfs:label "Casa-Museo de los Caballos del Vino" .
+
+<http://museosdemurciaa.es/Jumilla> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Jumilla" ;
+	owl:sameAs "http://dbpedia.org/resource/Jumilla" .
+
+<http://museosdemurciaa.es/4832> rdfs:label "Casa-Museo del Belén" ;
+	vcard:hasAddress "Calle Olivo esquina con Travesía Torre 2, s/n,"^^vcard:address ;
+	vcard:hasRegion "Murcia"^^vcard:region ;
+	vcard:hasLocality "PUENTE TOCINOS"^^vcard:locality ;
+	vcard:hasTelephone "968 30 11 26"^^vcard:tel .
+
+<http://museosdemurciaa.es/Casa-Museo+del+Bel%C3%A9n> rdfs:label "Casa-Museo del Belén" .
+
+<http://museosdemurciaa.es/Murcia> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Murcia" ;
+	owl:sameAs "http://dbpedia.org/resource/Murcia" .
+
+<http://museosdemurciaa.es/PUENTE+TOCINOS> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "PUENTE TOCINOS" .
+
+<http://museosdemurciaa.es/71> rdfs:label "Centro de Documentación y Exposición de Cabo de Palos" ;
+	vcard:hasAddress "Cabo de Palos. Junto Iglesia"^^vcard:address ;
+	vcard:hasRegion "La Manga del Mar Menor"^^vcard:region ;
+	vcard:hasTelephone "968 145 309"^^vcard:tel .
+
+<http://museosdemurciaa.es/Centro+de+Documentaci%C3%B3n+y+Exposici%C3%B3n+de+Cabo+de+Palos> rdfs:label "Centro de Documentación y Exposición de Cabo de Palos" .
+
+<http://museosdemurciaa.es/La+Manga+del+Mar+Menor> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "La Manga del Mar Menor" .
+
+<http://museosdemurciaa.es/111> vcard:hasAddress "Ctra de San Juan, km 7. Casa de Cristo"^^vcard:address ;
+	rdfs:label "Centro de Interpretación del Arte Rupestre Casa de Cristo" ;
+	vcard:hasRegion "Moratalla"^^vcard:region ;
+	vcard:hasLocality "MORATALLA"^^vcard:locality ;
+	vcard:hasTelephone "968 735 987"^^vcard:tel ;
+	vcard:hasURL "www.arterupestremoratalla.com"^^vcard:url .
+
+<http://museosdemurciaa.es/Centro+de+Interpretaci%C3%B3n+del+Arte+Rupestre+Casa+de+Cristo> rdfs:label "Centro de Interpretación del Arte Rupestre Casa de Cristo" .
+
+<http://museosdemurciaa.es/Moratalla> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Moratalla" ;
+	owl:sameAs "http://dbpedia.org/resource/Moratalla,_Murcia" .
+
+<http://museosdemurciaa.es/MORATALLA> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "MORATALLA" ;
+	owl:sameAs "http://dbpedia.org/resource/Moratalla,_Murcia" .
+
+<http://museosdemurciaa.es/4784> rdfs:label "CENTRO DE INTERPRETACIÓN DEL FOLKLORE" ;
+	vcard:hasAddress "C/ Empredrá, 9"^^vcard:address ;
+	vcard:hasRegion "Cieza"^^vcard:region ;
+	vcard:hasTelephone "658 641 101"^^vcard:tel ;
+	vcard:hasURL "http://www.centrodefolklore.com"^^vcard:url .
+
+<http://museosdemurciaa.es/CENTRO+DE+INTERPRETACI%C3%93N+DEL+FOLKLORE> rdfs:label "CENTRO DE INTERPRETACIÓN DEL FOLKLORE" .
+
+<http://museosdemurciaa.es/Cieza> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Cieza" .
+
+<http://museosdemurciaa.es/72> rdfs:label "Centro de Visitantes" ;
+	vcard:hasAddress "C/ Puerta de San Ginés, s/n"^^vcard:address ;
+	vcard:hasRegion "Lorca"^^vcard:region ;
+	vcard:hasLocality "LORCA"^^vcard:locality ;
+	vcard:hasTelephone "968 479 003"^^vcard:tel ;
+	vcard:hasURL "www.lorcatallerdeltiempo.com"^^vcard:url .
+
+<http://museosdemurciaa.es/Centro+de+Visitantes> rdfs:label "Centro de Visitantes" .
+
+<http://museosdemurciaa.es/Lorca> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Lorca" .
+
+<http://museosdemurciaa.es/LORCA> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "LORCA" .
+
+<http://museosdemurciaa.es/42> rdfs:label "Centro Etnográfico Casa del Cura" ;
+	vcard:hasAddress "Casa del Cura"^^vcard:address ;
+	vcard:hasRegion "Puerto Lumbreras"^^vcard:region ;
+	vcard:hasLocality "PUERTO LUMBRERAS"^^vcard:locality ;
+	vcard:hasTelephone "968 436 153 / 652 902 282"^^vcard:tel ;
+	vcard:hasURL "www.puertolumbreras.es"^^vcard:url .
+
+<http://museosdemurciaa.es/Centro+Etnogr%C3%A1fico+Casa+del+Cura> rdfs:label "Centro Etnográfico Casa del Cura" .
+
+<http://museosdemurciaa.es/Puerto+Lumbreras> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Puerto Lumbreras" ;
+	owl:sameAs "http://dbpedia.org/resource/Puerto_Lumbreras" .
+
+<http://museosdemurciaa.es/PUERTO+LUMBRERAS> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "PUERTO LUMBRERAS" ;
+	owl:sameAs "http://dbpedia.org/resource/Puerto_Lumbreras" .
+
+<http://museosdemurciaa.es/20> rdfs:label "Centro Internacional de Estudios de la Vera Cruz de Caravaca" ;
+	vcard:hasAddress "C/ Las Monjas, 9"^^vcard:address ;
+	vcard:hasRegion "Jumilla"^^vcard:region ;
+	vcard:hasLocality "Jumilla"^^vcard:locality ;
+	vcard:hasTelephone "968 705 942"^^vcard:tel , "968 705 199"^^vcard:Fax ;
+	vcard:hasURL "http://www.caravaca.org"^^vcard:url .
+
+<http://museosdemurciaa.es/Centro+Internacional+de+Estudios+de+la+Vera+Cruz+de+Caravaca> rdfs:label "Centro Internacional de Estudios de la Vera Cruz de Caravaca" .
+
+<http://museosdemurciaa.es/Jumilla> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Jumilla" ;
+	owl:sameAs "http://dbpedia.org/resource/Jumilla" ;
+	a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Jumilla" ;
+	owl:sameAs "http://dbpedia.org/resource/Jumilla" .
+
+<http://museosdemurciaa.es/145> rdfs:label "CENTRO LA ALBARDA DE RITOS Y TRADICIONES DEL CAMPO DE MOLINA" ;
+	vcard:hasAddress "Avd. de la Albarda, 74 - Pedanía La Albarda"^^vcard:address ;
+	vcard:hasRegion "Molina de Segura"^^vcard:region ;
+	vcard:hasTelephone "Concejalía de Turismo Tlf. 968 388  Ext.522 / 523"^^vcard:tel .
+
+<http://museosdemurciaa.es/CENTRO+LA+ALBARDA+DE+RITOS+Y+TRADICIONES+DEL+CAMPO+DE+MOLINA> rdfs:label "CENTRO LA ALBARDA DE RITOS Y TRADICIONES DEL CAMPO DE MOLINA" .
+
+<http://museosdemurciaa.es/Molina+de+Segura> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Molina de Segura" ;
+	owl:sameAs "http://dbpedia.org/resource/Molina_de_Segura" .
+
+<http://museosdemurciaa.es/101> rdfs:label "Ceutimagina" ;
+	vcard:hasAddress "C/ San Lucas, s/n"^^vcard:address ;
+	vcard:hasRegion "Ceutí"^^vcard:region ;
+	vcard:hasLocality "CEUTI"^^vcard:locality ;
+	vcard:hasTelephone "868 923 132"^^vcard:tel , "868 923 340"^^vcard:Fax ;
+	vcard:hasURL "http://www.ceutimagina.es"^^vcard:url .
+
+<http://museosdemurciaa.es/Ceutimagina> rdfs:label "Ceutimagina" .
+
+<http://museosdemurciaa.es/Ceutí> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Ceutí" .
+
+<http://museosdemurciaa.es/CEUTI> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "CEUTI" .
+
+<http://museosdemurciaa.es/28> vcard:hasAddress "C/ Portillo de la Glorieta,  24"^^vcard:address ;
+	rdfs:label "Colección Cofradía del Rollo" ;
+	vcard:hasRegion "Jumilla"^^vcard:region ;
+	vcard:hasLocality "JUMILLA"^^vcard:locality ;
+	vcard:hasTelephone "667 455 506"^^vcard:tel .
+
+<http://museosdemurciaa.es/Colecci%C3%B3n+Cofrad%C3%ADa+del+Rollo> rdfs:label "Colección Cofradía del Rollo" .
+
+<http://museosdemurciaa.es/Jumilla> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Jumilla" ;
+	owl:sameAs "http://dbpedia.org/resource/Jumilla" .
+
+<http://museosdemurciaa.es/JUMILLA> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "JUMILLA" ;
+	owl:sameAs "http://dbpedia.org/resource/Jumilla" .
+
+<http://museosdemurciaa.es/19> vcard:hasAddress "C/ Lorenzo Morales, 1 Edif. Hogar del Pescador, 1ª planta"^^vcard:address ;
+	rdfs:label "Colección Museo del Mar" ;
+	vcard:hasRegion "San Pedro del Pinatar"^^vcard:region ;
+	vcard:hasLocality "SAN PEDRO DEL PINATAR"^^vcard:locality ;
+	vcard:hasTelephone "606 120 842"^^vcard:tel ;
+	vcard:hasURL "www.sanpedrodelpinatar.es"^^vcard:url .
+
+<http://museosdemurciaa.es/Colecci%C3%B3n+Museo+del+Mar> rdfs:label "Colección Museo del Mar" .
+
+<http://museosdemurciaa.es/San+Pedro+del+Pinatar> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "San Pedro del Pinatar" .
+
+<http://museosdemurciaa.es/SAN+PEDRO+DEL+PINATAR> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "SAN PEDRO DEL PINATAR" .
+
+<http://museosdemurciaa.es/58> rdfs:label "Conjunto Monumental San Juan de Dios" ;
+	vcard:hasAddress "C/ Eulogio Soriano, 4"^^vcard:address ;
+	vcard:hasRegion "Murcia"^^vcard:region ;
+	vcard:hasLocality "MURCIA"^^vcard:locality ;
+	vcard:hasTelephone "968 214 541"^^vcard:tel ;
+	vcard:hasURL "www.museosdemurcia.com/mubam/sanjuan/"^^vcard:url .
+
+<http://museosdemurciaa.es/Conjunto+Monumental+San+Juan+de+Dios> rdfs:label "Conjunto Monumental San Juan de Dios" .
+
+<http://museosdemurciaa.es/Murcia> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Murcia" ;
+	owl:sameAs "http://dbpedia.org/resource/Murcia" .
+
+<http://museosdemurciaa.es/MURCIA> rdfs:label "MURCIA" ;
+	a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	owl:sameAs "http://dbpedia.org/resource/Murcia" .
+
+<http://museosdemurciaa.es/43> vcard:hasAddress "Molinos del Río, 1"^^vcard:address ;
+	rdfs:label "Espacio Molinos del Río / Sala Caballerizas" ;
+	vcard:hasRegion "Murcia"^^vcard:region ;
+	vcard:hasLocality "MURCIA"^^vcard:locality ;
+	vcard:hasTelephone "968 35 86 00"^^vcard:tel ;
+	vcard:hasURL "www.molinosdelrio.org"^^vcard:url .
+
+<http://museosdemurciaa.es/Espacio+Molinos+del+R%C3%ADo+%2F+Sala+Caballerizas> rdfs:label "Espacio Molinos del Río / Sala Caballerizas" .
+
+<http://museosdemurciaa.es/Murcia> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Murcia" ;
+	owl:sameAs "http://dbpedia.org/resource/Murcia" .
+
+<http://museosdemurciaa.es/MURCIA> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "MURCIA" ;
+	owl:sameAs "http://dbpedia.org/resource/Murcia" .
+
+<http://museosdemurciaa.es/103> rdfs:label "Fundación Casa Pintada - Museo Cristóbal Gabarrón" ;
+	vcard:hasAddress "C/ San Francisco, 14"^^vcard:address ;
+	vcard:hasRegion "Mula"^^vcard:region ;
+	vcard:hasLocality "MULA"^^vcard:locality ;
+	vcard:hasTelephone "968 662 762 / 968 662 763"^^vcard:tel ;
+	vcard:hasURL "http://www.gabarron.org/es/Fundaciones/Centros/MurciaMula/tabid/1281/Default.aspx"^^vcard:url .
+
+<http://museosdemurciaa.es/Fundaci%C3%B3n+Casa+Pintada+-+Museo+Crist%C3%B3bal+Gabarr%C3%B3n> rdfs:label "Fundación Casa Pintada - Museo Cristóbal Gabarrón" .
+
+<http://museosdemurciaa.es/Mula> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Mula" .
+
+<http://museosdemurciaa.es/MULA> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "MULA" .
+
+<http://museosdemurciaa.es/143> rdfs:label "Fundación Pedro Cano" ;
+	vcard:hasAddress "Avenida del Río Segura  S/N"^^vcard:address ;
+	vcard:hasRegion "Blanca"^^vcard:region ;
+	vcard:hasLocality "BLANCA"^^vcard:locality ;
+	vcard:hasTelephone "968 778 446"^^vcard:tel ;
+	vcard:hasURL "http://www.fundacionpedrocano.es"^^vcard:url .
+
+<http://museosdemurciaa.es/Fundaci%C3%B3n+Pedro+Cano> rdfs:label "Fundación Pedro Cano" .
+
+<http://museosdemurciaa.es/Blanca> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Blanca" .
+
+<http://museosdemurciaa.es/BLANCA> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "BLANCA" .
+
+<http://museosdemurciaa.es/50> vcard:hasRegion "Lorca"^^vcard:region ;
+	vcard:hasLocality "LORCA"^^vcard:locality ;
+	rdfs:label "MASS. Museo Azul de la Semana Santa" ;
+	vcard:hasAddress "C/ Cuesta de San Francisco, 2"^^vcard:address ;
+	vcard:hasTelephone "968 472 077"^^vcard:tel ;
+	vcard:hasURL "http://www.pasoazul.com/"^^vcard:url .
+
+<http://museosdemurciaa.es/MASS.+Museo+Azul+de+la+Semana+Santa> rdfs:label "MASS. Museo Azul de la Semana Santa" .
+
+<http://museosdemurciaa.es/Lorca> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Lorca" .
+
+<http://museosdemurciaa.es/LORCA> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "LORCA" .
+
+<http://museosdemurciaa.es/14> rdfs:label "MUAL. Museo Arqueológico Municipal de Lorca" ;
+	vcard:hasAddress "Plaza de Don Juan Moreno, s/n."^^vcard:address ;
+	vcard:hasRegion "Lorca"^^vcard:region ;
+	vcard:hasLocality "LORCA"^^vcard:locality ;
+	vcard:hasTelephone "968 406 267"^^vcard:tel ;
+	vcard:hasURL "http://www.museoarqueologico.lorca.es"^^vcard:url .
+
+<http://museosdemurciaa.es/MUAL.+Museo+Arqueol%C3%B3gico+Municipal+de+Lorca> rdfs:label "MUAL. Museo Arqueológico Municipal de Lorca" .
+
+<http://museosdemurciaa.es/Lorca> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Lorca" .
+
+<http://museosdemurciaa.es/LORCA> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "LORCA" .
+
+<http://museosdemurciaa.es/34> rdfs:label "MUBBLA. Museo de Bordados del Paso Blanco" ;
+	vcard:hasAddress "Conjunto Monumental de Santo Domingo, 8"^^vcard:address ;
+	vcard:hasRegion "Lorca"^^vcard:region ;
+	vcard:hasLocality "LORCA"^^vcard:locality ;
+	vcard:hasTelephone "650 272 004 - 902 400 047"^^vcard:tel ;
+	vcard:hasURL "http://www.mubbla.org"^^vcard:url .
+
+<http://museosdemurciaa.es/MUBBLA.+Museo+de+Bordados+del+Paso+Blanco> rdfs:label "MUBBLA. Museo de Bordados del Paso Blanco" .
+
+<http://museosdemurciaa.es/Lorca> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Lorca" .
+
+<http://museosdemurciaa.es/LORCA> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "LORCA" .
+
+<http://museosdemurciaa.es/5349> rdfs:label "MUDEM - MUSEO DEL ENCLAVE DE LA MURALLA" ;
+	vcard:hasAddress "Plaza del Enclave de la Muralla, s/n"^^vcard:address ;
+	vcard:hasRegion "Molina de Segura"^^vcard:region ;
+	vcard:hasTelephone "968 38 85 62 / 968 38 85 00 Ext. 2510."^^vcard:tel .
+
+<http://museosdemurciaa.es/MUDEM+-+MUSEO+DEL+ENCLAVE+DE+LA+MURALLA> rdfs:label "MUDEM - MUSEO DEL ENCLAVE DE LA MURALLA" .
+
+<http://museosdemurciaa.es/Molina+de+Segura> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Molina de Segura" ;
+	owl:sameAs "http://dbpedia.org/resource/Molina_de_Segura" .
+
+<http://museosdemurciaa.es/86> rdfs:label "MUPAEN. Museo de Bordados del Paso Encarnado" ;
+	vcard:hasAddress "Eulogio Periago, 2"^^vcard:address ;
+	vcard:hasRegion "Lorca"^^vcard:region ;
+	vcard:hasLocality "LORCA"^^vcard:locality ;
+	vcard:hasTelephone "968 472 456"^^vcard:tel ;
+	vcard:hasURL "http://www.pasoencarnado.es/"^^vcard:url .
+
+<http://museosdemurciaa.es/MUPAEN.+Museo+de+Bordados+del+Paso+Encarnado> rdfs:label "MUPAEN. Museo de Bordados del Paso Encarnado" .
+
+<http://museosdemurciaa.es/Lorca> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Lorca" .
+
+<http://museosdemurciaa.es/LORCA> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "LORCA" .
+
+<http://museosdemurciaa.es/54> rdfs:label "Museo Aeronáutico Municipal" ;
+	vcard:hasAddress "Avda de la Libertad, 37"^^vcard:address ;
+	vcard:hasRegion "Los Alcázares"^^vcard:region ;
+	vcard:hasLocality "LOS ALCÁZARES"^^vcard:locality ;
+	vcard:hasTelephone "968 582 107"^^vcard:tel ;
+	vcard:hasURL "www.losalcazares.es"^^vcard:url .
+
+<http://museosdemurciaa.es/Museo+Aeron%C3%A1utico+Municipal> rdfs:label "Museo Aeronáutico Municipal" .
+
+<http://museosdemurciaa.es/Los+Alc%C3%A1zares> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Los Alcázares" .
+
+<http://museosdemurciaa.es/LOS+ALC%C3%81ZARES> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "LOS ALCÁZARES" .
+
+<http://museosdemurciaa.es/82> rdfs:label "Museo al aire libre: 'Ceutí a Cielo Abierto'" ;
+	vcard:hasAddress "Sin domicilio (recorrido por la localidad)"^^vcard:address ;
+	vcard:hasRegion "Ceutí"^^vcard:region ;
+	vcard:hasLocality "CEUTI"^^vcard:locality ;
+	vcard:hasTelephone "968 692 540"^^vcard:tel .
+
+<http://museosdemurciaa.es/Museo+al+aire+libre%3A+%27Ceut%C3%AD+a+Cielo+Abierto%27> rdfs:label "Museo al aire libre: 'Ceutí a Cielo Abierto'" .
+
+<http://museosdemurciaa.es/Ceutí> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Ceutí" .
+
+<http://museosdemurciaa.es/CEUTI> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "CEUTI" .
+
+<http://museosdemurciaa.es/80> rdfs:label "Museo Arqueológico - Factoría Romana de Salazones" ;
+	vcard:hasAddress "C/ La Torre esq. San Ginés "^^vcard:address ;
+	vcard:hasRegion "Mazarrón"^^vcard:region ;
+	vcard:hasLocality "PUERTO DE MAZARRÓN"^^vcard:locality ;
+	vcard:hasTelephone "968 59 52 42"^^vcard:tel ;
+	vcard:hasURL "www.mazarron.es"^^vcard:url .
+
+<http://museosdemurciaa.es/Museo+Arqueol%C3%B3gico+-+Factor%C3%ADa+Romana+de+Salazones> rdfs:label "Museo Arqueológico - Factoría Romana de Salazones" .
+
+<http://museosdemurciaa.es/Mazarrón> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Mazarrón" .
+
+<http://museosdemurciaa.es/PUERTO+DE+MAZARR%C3%93N> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "PUERTO DE MAZARRÓN" .
+
+<http://museosdemurciaa.es/5767> rdfs:label "Museo Arqueológico Comarcal de Orihuela - MARQUO" ;
+	vcard:hasAddress "C/ Hospital, 3"^^vcard:address ;
+	vcard:hasRegion "Orihuela"^^vcard:region ;
+	vcard:hasTelephone "966 74 31 54"^^vcard:tel ;
+	vcard:hasURL "http://www.orihuelaturistica.es"^^vcard:url .
+
+<http://museosdemurciaa.es/Museo+Arqueol%C3%B3gico+Comarcal+de+Orihuela+-+MARQUO> rdfs:label "Museo Arqueológico Comarcal de Orihuela - MARQUO" .
+
+<http://museosdemurciaa.es/Orihuela> rdfs:label "Orihuela" ;
+	a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> .
+
+<http://museosdemurciaa.es/12> rdfs:label "Museo Arqueológico de Murcia" ;
+	vcard:hasAddress "Av. Alfonso X 'el Sabio', 7"^^vcard:address ;
+	vcard:hasRegion "Murcia"^^vcard:region ;
+	vcard:hasLocality "MURCIA"^^vcard:locality ;
+	vcard:hasTelephone "968 23 46 02"^^vcard:tel ;
+	vcard:hasURL "www.museosregiondemurcia.es"^^vcard:url .
+
+<http://museosdemurciaa.es/Museo+Arqueol%C3%B3gico+de+Murcia> rdfs:label "Museo Arqueológico de Murcia" .
+
+<http://museosdemurciaa.es/Murcia> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Murcia" ;
+	owl:sameAs "http://dbpedia.org/resource/Murcia" .
+
+<http://museosdemurciaa.es/MURCIA> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "MURCIA" ;
+	owl:sameAs "http://dbpedia.org/resource/Murcia" .
+
+<http://museosdemurciaa.es/99> rdfs:label "Museo Arqueológico de Portmán" ;
+	vcard:hasAddress "C/ Caridad, s/n"^^vcard:address ;
+	vcard:hasRegion "La Unión"^^vcard:region ;
+	vcard:hasTelephone "968 541 614"^^vcard:tel .
+
+<http://museosdemurciaa.es/Museo+Arqueol%C3%B3gico+de+Portm%C3%A1n> rdfs:label "Museo Arqueológico de Portmán" .
+
+<http://museosdemurciaa.es/La+Uni%C3%B3n> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "La Unión" .
+
+<http://museosdemurciaa.es/4163029> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "4163029" .
+
+<http://museosdemurciaa.es/8> rdfs:label "Museo Arqueológico la Encomienda" ;
+	vcard:hasAddress "calle mayor nº 14"^^vcard:address ;
+	vcard:hasRegion "Calasparra"^^vcard:region ;
+	vcard:hasLocality "CALASPARRA"^^vcard:locality ;
+	vcard:hasTelephone "968 745 325"^^vcard:tel , "968 745 325"^^vcard:Fax ;
+	vcard:hasURL "http://turismocalasparra.es"^^vcard:url .
+
+<http://museosdemurciaa.es/Museo+Arqueol%C3%B3gico+la+Encomienda> rdfs:label "Museo Arqueológico la Encomienda" .
+
+<http://museosdemurciaa.es/Calasparra> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Calasparra" .
+
+<http://museosdemurciaa.es/CALASPARRA> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "CALASPARRA" .
+
+<http://museosdemurciaa.es/104> rdfs:label "Museo Arqueológico los Baños" ;
+	vcard:hasAddress "C/ Sánchez Vidal, 5"^^vcard:address ;
+	vcard:hasRegion "Alhama de Murcia"^^vcard:region ;
+	vcard:hasLocality "ALHAMA DE MURCIA"^^vcard:locality ;
+	vcard:hasTelephone "968 630 776"^^vcard:tel ;
+	vcard:hasURL "http://www.museoalhamademurcia.es/"^^vcard:url .
+
+<http://museosdemurciaa.es/Museo+Arqueol%C3%B3gico+los+Ba%C3%B1os> rdfs:label "Museo Arqueológico los Baños" .
+
+<http://museosdemurciaa.es/Alhama+de+Murcia> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Alhama de Murcia" ;
+	owl:sameAs "http://dbpedia.org/resource/Alhama_de_Murcia" .
+
+<http://museosdemurciaa.es/ALHAMA+DE+MURCIA> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "ALHAMA DE MURCIA" ;
+	owl:sameAs "http://dbpedia.org/resource/Alhama_de_Murcia" .
+
+<http://museosdemurciaa.es/9> rdfs:label "Museo Arqueológico Municipal Cayetano de Mergelina" ;
+	vcard:hasAddress "C/ España, 37"^^vcard:address ;
+	vcard:hasRegion "Yecla"^^vcard:region ;
+	vcard:hasLocality "YECLA"^^vcard:locality ;
+	vcard:hasTelephone "968 790 901"^^vcard:tel , "968 752 893"^^vcard:Fax ;
+	vcard:hasURL "http://www.bibliotecaspublicas.es/yecla/index.jsp"^^vcard:url .
+
+<http://museosdemurciaa.es/Museo+Arqueol%C3%B3gico+Municipal+Cayetano+de+Mergelina> rdfs:label "Museo Arqueológico Municipal Cayetano de Mergelina" .
+
+<http://museosdemurciaa.es/Yecla> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Yecla" .
+
+<http://museosdemurciaa.es/YECLA> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "YECLA" .
+
+<http://museosdemurciaa.es/53> rdfs:label "Museo Arqueológico Municipal de Águilas." ;
+	vcard:hasAddress "C/ Conde de Aranda, 5"^^vcard:address ;
+	vcard:hasRegion "Águilas"^^vcard:region ;
+	vcard:hasLocality "AGUILAS"^^vcard:locality ;
+	vcard:hasTelephone "968 493 287"^^vcard:tel ;
+	vcard:hasURL "www.aguilas.es"^^vcard:url .
+
+<http://museosdemurciaa.es/Museo+Arqueol%C3%B3gico+Municipal+de+%C3%81guilas.> rdfs:label "Museo Arqueológico Municipal de Águilas." .
+
+<http://museosdemurciaa.es/Águilas> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Águilas" .
+
+<http://museosdemurciaa.es/AGUILAS> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "AGUILAS" .
+
+<http://museosdemurciaa.es/51> rdfs:label "Museo Arqueológico Municipal de Cartagena" ;
+	vcard:hasAddress "C/ Ramón y Cajal, 45"^^vcard:address ;
+	vcard:hasRegion "Cartagena"^^vcard:region ;
+	vcard:hasLocality "CARTAGENA"^^vcard:locality ;
+	vcard:hasTelephone "968 128 968"^^vcard:tel , "968 128 882"^^vcard:Fax ;
+	vcard:hasURL "http://www.museoarqueologicocartagena.es"^^vcard:url .
+
+<http://museosdemurciaa.es/Museo+Arqueol%C3%B3gico+Municipal+de+Cartagena> rdfs:label "Museo Arqueológico Municipal de Cartagena" .
+
+<http://museosdemurciaa.es/Cartagena> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Cartagena" .
+
+<http://museosdemurciaa.es/CARTAGENA> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "CARTAGENA" .
+
+<http://museosdemurciaa.es/30> rdfs:label "Museo Arqueológico Municipal de Cehegín" ;
+	vcard:hasAddress "Plaza del Castillo, s/n"^^vcard:address ;
+	vcard:hasRegion "Cehegín"^^vcard:region ;
+	vcard:hasLocality "CEHEGIN"^^vcard:locality ;
+	vcard:hasTelephone "968 74 25 25"^^vcard:tel ;
+	vcard:hasURL "http://www.turismocehegin.es"^^vcard:url .
+
+<http://museosdemurciaa.es/Museo+Arqueol%C3%B3gico+Municipal+de+Ceheg%C3%ADn> rdfs:label "Museo Arqueológico Municipal de Cehegín" .
+
+<http://museosdemurciaa.es/Cehegín> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Cehegín" .
+
+<http://museosdemurciaa.es/CEHEGIN> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "CEHEGIN" .
+
+<http://museosdemurciaa.es/15> rdfs:label "Museo Arqueológico Municipal Jerónimo Molina" ;
+	vcard:hasAddress "Pza. de Arriba, s/n. Antiguo Palacio del Concejo."^^vcard:address ;
+	vcard:hasRegion "Jumilla"^^vcard:region ;
+	vcard:hasLocality "JUMILLA"^^vcard:locality ;
+	vcard:hasTelephone "968 757 379"^^vcard:tel .
+
+<http://museosdemurciaa.es/Museo+Arqueol%C3%B3gico+Municipal+Jer%C3%B3nimo+Molina> rdfs:label "Museo Arqueológico Municipal Jerónimo Molina" .
+
+<http://museosdemurciaa.es/Jumilla> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Jumilla" ;
+	owl:sameAs "http://dbpedia.org/resource/Jumilla" .
+
+<http://museosdemurciaa.es/JUMILLA> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	owl:sameAs "http://dbpedia.org/resource/Jumilla" ;
+	rdfs:label "JUMILLA" .
+
+<http://museosdemurciaa.es/26> vcard:hasAddress "Cuesta del Castillo, s/n. Iglesia de la Soledad"^^vcard:address ;
+	vcard:hasLocality "Jumilla"^^vcard:locality ;
+	vcard:hasRegion "Jumilla"^^vcard:region ;
+	rdfs:label "Museo Arqueológico Municipal la Soledad" ;
+	vcard:hasTelephone "968 705 620 (Reservas) / 968 700 512 (Museo)"^^vcard:tel ;
+	vcard:hasURL "www.turismocaravaca.com"^^vcard:url .
+
+<http://museosdemurciaa.es/Museo+Arqueol%C3%B3gico+Municipal+la+Soledad> rdfs:label "Museo Arqueológico Municipal la Soledad" .
+
+<http://museosdemurciaa.es/Jumilla> rdfs:label "Jumilla" ;
+	a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	owl:sameAs "http://dbpedia.org/resource/Jumilla" ;
+	a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Jumilla" ;
+	owl:sameAs "http://dbpedia.org/resource/Jumilla" .
+
+<http://museosdemurciaa.es/140> vcard:hasAddress "Pza. José Carrilero, s/n"^^vcard:address ;
+	rdfs:label "MUSEO CARRILERO" ;
+	vcard:hasRegion "Jumilla"^^vcard:region ;
+	vcard:hasLocality "Jumilla"^^vcard:locality ;
+	vcard:hasTelephone "968 70 56 20"^^vcard:tel ;
+	vcard:hasURL "www.josecarrilero.net/museo/index.htm"^^vcard:url .
+
+<http://museosdemurciaa.es/MUSEO+CARRILERO> rdfs:label "MUSEO CARRILERO" .
+
+<http://museosdemurciaa.es/Jumilla> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Jumilla" ;
+	owl:sameAs "http://dbpedia.org/resource/Jumilla" ;
+	a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Jumilla" ;
+	owl:sameAs "http://dbpedia.org/resource/Jumilla" .
+
+<http://museosdemurciaa.es/5447> vcard:hasRegion "Mula"^^vcard:region ;
+	rdfs:label "Museo Ciudad de Mula" ;
+	vcard:hasAddress "C/ Doña Elvira, 4"^^vcard:address ;
+	vcard:hasLocality "MULA"^^vcard:locality ;
+	vcard:hasTelephone "968 661 501"^^vcard:tel ;
+	vcard:hasURL "www.mula.es"^^vcard:url .
+
+<http://museosdemurciaa.es/Museo+Ciudad+de+Mula> rdfs:label "Museo Ciudad de Mula" .
+
+<http://museosdemurciaa.es/Mula> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Mula" .
+
+<http://museosdemurciaa.es/MULA> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "MULA" .
+
+<http://museosdemurciaa.es/5282> rdfs:label "Museo Crux Caravacensis" ;
+	vcard:hasAddress "C/ Mayor, 18 Bajo"^^vcard:address ;
+	vcard:hasRegion "Jumilla"^^vcard:region ;
+	vcard:hasTelephone "666 071 480"^^vcard:tel .
+
+<http://museosdemurciaa.es/Museo+Crux+Caravacensis> rdfs:label "Museo Crux Caravacensis" .
+
+<http://museosdemurciaa.es/Jumilla> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Jumilla" ;
+	owl:sameAs "http://dbpedia.org/resource/Jumilla" .
+
+<http://museosdemurciaa.es/6119> rdfs:label "Museo de Archena" ;
+	vcard:hasAddress "Avenida del Río Segura"^^vcard:address ;
+	vcard:hasRegion "Archena"^^vcard:region ;
+	vcard:hasTelephone "627 973 612/ 630 612 998"^^vcard:tel .
+
+<http://museosdemurciaa.es/Museo+de+Archena> rdfs:label "Museo de Archena" .
+
+<http://museosdemurciaa.es/Archena> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Archena" ;
+	owl:sameAs "http://dbpedia.org/resource/Archena" .
+
+<http://museosdemurciaa.es/13> rdfs:label "Museo de Arte de San Miguel Arcángel" ;
+	vcard:hasAddress "C/ del Chorrador. Junto Iglesia San Miguel"^^vcard:address ;
+	vcard:hasRegion "Mula"^^vcard:region ;
+	vcard:hasLocality "MULA"^^vcard:locality ;
+	vcard:hasTelephone "653 103 440"^^vcard:tel .
+
+<http://museosdemurciaa.es/Museo+de+Arte+de+San+Miguel+Arc%C3%A1ngel> rdfs:label "Museo de Arte de San Miguel Arcángel" .
+
+<http://museosdemurciaa.es/Mula> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Mula" .
+
+<http://museosdemurciaa.es/MULA> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "MULA" .
+
+<http://museosdemurciaa.es/40> vcard:hasLocality "MULA"^^vcard:locality ;
+	vcard:hasRegion "Mula"^^vcard:region ;
+	rdfs:label "Museo de Arte Ibérico El Cigarralejo" ;
+	vcard:hasAddress "C/ Marqués, 1"^^vcard:address ;
+	vcard:hasTelephone "968 661 422"^^vcard:tel ;
+	vcard:hasURL "www.museosregiondemurcia.es/"^^vcard:url .
+
+<http://museosdemurciaa.es/Museo+de+Arte+Ib%C3%A9rico+El+Cigarralejo> rdfs:label "Museo de Arte Ibérico El Cigarralejo" .
+
+<http://museosdemurciaa.es/Mula> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Mula" .
+
+<http://museosdemurciaa.es/MULA> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "MULA" .
+
+<http://museosdemurciaa.es/5183> rdfs:label "MUSEO DE BELENES DEL MUNDO" ;
+	vcard:hasAddress "Calle Cánovas Varona, 1"^^vcard:address ;
+	vcard:hasRegion "Ojós"^^vcard:region ;
+	vcard:hasTelephone "968 698 790"^^vcard:tel ;
+	vcard:hasURL "http://www.museodebelenesdelmundo.es/"^^vcard:url .
+
+<http://museosdemurciaa.es/MUSEO+DE+BELENES+DEL+MUNDO> rdfs:label "MUSEO DE BELENES DEL MUNDO" .
+
+<http://museosdemurciaa.es/Ojós> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Ojós" .
+
+<http://museosdemurciaa.es/46> rdfs:label "Museo de Bellas Artes de Murcia" ;
+	vcard:hasAddress "C/ Obispo Frutos, 12"^^vcard:address ;
+	vcard:hasRegion "Murcia"^^vcard:region ;
+	vcard:hasLocality "MURCIA"^^vcard:locality ;
+	vcard:hasTelephone "968 23 93 46"^^vcard:tel ;
+	vcard:hasURL "www.museosregiondemurcia.es"^^vcard:url .
+
+<http://museosdemurciaa.es/Museo+de+Bellas+Artes+de+Murcia> owl:sameAs "http://www.wikidata.org/entity/Q6033946" ;
+	rdfs:label "Museo de Bellas Artes de Murcia" .
+
+<http://museosdemurciaa.es/Murcia> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Murcia" ;
+	owl:sameAs "http://dbpedia.org/resource/Murcia" .
+
+<http://museosdemurciaa.es/MURCIA> rdfs:label "MURCIA" ;
+	a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	owl:sameAs "http://dbpedia.org/resource/Murcia" .
+
+<http://museosdemurciaa.es/1> vcard:hasTelephone "968 128 924 / 968 128 850"^^vcard:tel ;
+	vcard:hasRegion "Cartagena"^^vcard:region ;
+	vcard:hasLocality "CARTAGENA"^^vcard:locality ;
+	rdfs:label "Museo de Carmen Conde y Antonio Oliver" ;
+	vcard:hasAddress "Centro Cultural Ramón Alonso Luzzy. C/ Jacinto Benavente, 7"^^vcard:address ;
+	vcard:hasTelephone "968 128 856"^^vcard:Fax .
+
+<http://museosdemurciaa.es/Museo+de+Carmen+Conde+y+Antonio+Oliver> rdfs:label "Museo de Carmen Conde y Antonio Oliver" .
+
+<http://museosdemurciaa.es/Cartagena> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Cartagena" .
+
+<http://museosdemurciaa.es/CARTAGENA> rdfs:label "CARTAGENA" ;
+	a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> .
+
+<http://museosdemurciaa.es/47> vcard:hasRegion "San Javier"^^vcard:region ;
+	vcard:hasLocality "SAN JAVIER"^^vcard:locality ;
+	rdfs:label "Museo de Historia Local de San Javier" ;
+	vcard:hasAddress "Ctra. a Cartagena, s/n"^^vcard:address ;
+	vcard:hasTelephone "968 573 700 ext. #5105  / 661 564059"^^vcard:tel .
+
+<http://museosdemurciaa.es/Museo+de+Historia+Local+de+San+Javier> rdfs:label "Museo de Historia Local de San Javier" .
+
+<http://museosdemurciaa.es/San+Javier> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "San Javier" .
+
+<http://museosdemurciaa.es/SAN+JAVIER> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "SAN JAVIER" .
+
+<http://museosdemurciaa.es/55> vcard:hasAddress "Iglesia del Carmen - C/ Princesa, 27"^^vcard:address ;
+	vcard:hasRegion "Murcia"^^vcard:region ;
+	rdfs:label "Museo de la Archicofradía de la Sangre" ;
+	vcard:hasLocality "MURCIA"^^vcard:locality ;
+	vcard:hasTelephone "968 344 361"^^vcard:tel ;
+	vcard:hasURL "http://www.coloraos.com"^^vcard:url .
+
+<http://museosdemurciaa.es/Museo+de+la+Archicofrad%C3%ADa+de+la+Sangre> rdfs:label "Museo de la Archicofradía de la Sangre" .
+
+<http://museosdemurciaa.es/Murcia> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Murcia" ;
+	owl:sameAs "http://dbpedia.org/resource/Murcia" .
+
+<http://museosdemurciaa.es/MURCIA> rdfs:label "MURCIA" ;
+	a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	owl:sameAs "http://dbpedia.org/resource/Murcia" .
+
+<http://museosdemurciaa.es/41> rdfs:label "Museo de la Catedral de Murcia" ;
+	vcard:hasAddress "Plaza Cardenal Belluga"^^vcard:address ;
+	vcard:hasRegion "Murcia"^^vcard:region ;
+	vcard:hasLocality "MURCIA"^^vcard:locality ;
+	vcard:hasTelephone "968 219 713"^^vcard:tel ;
+	vcard:hasURL "www.museocatedralicio.com"^^vcard:url .
+
+<http://museosdemurciaa.es/Museo+de+la+Catedral+de+Murcia> rdfs:label "Museo de la Catedral de Murcia" ;
+	owl:sameAs "http://www.wikidata.org/entity/Q6034192" .
+
+<http://museosdemurciaa.es/Murcia> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Murcia" ;
+	owl:sameAs "http://dbpedia.org/resource/Murcia" .
+
+<http://museosdemurciaa.es/MURCIA> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "MURCIA" ;
+	owl:sameAs "http://dbpedia.org/resource/Murcia" .
+
+<http://museosdemurciaa.es/52> vcard:hasLocality "MURCIA"^^vcard:locality ;
+	vcard:hasAddress "Plaza de la Ciencia, 1"^^vcard:address ;
+	vcard:hasRegion "Murcia"^^vcard:region ;
+	rdfs:label "Museo de la Ciencia y el Agua" ;
+	vcard:hasTelephone "968 21 19 98"^^vcard:tel ;
+	vcard:hasURL "http://cienciayagua.org/"^^vcard:url .
+
+<http://museosdemurciaa.es/Museo+de+la+Ciencia+y+el+Agua> rdfs:label "Museo de la Ciencia y el Agua" .
+
+<http://museosdemurciaa.es/Murcia> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Murcia" ;
+	owl:sameAs "http://dbpedia.org/resource/Murcia" .
+
+<http://museosdemurciaa.es/MURCIA> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "MURCIA" ;
+	owl:sameAs "http://dbpedia.org/resource/Murcia" .
+
+<http://museosdemurciaa.es/11> rdfs:label "Museo de la Ciudad" ;
+	vcard:hasAddress "Pza de las Agustinas, 7"^^vcard:address ;
+	vcard:hasRegion "Murcia"^^vcard:region ;
+	vcard:hasLocality "MURCIA"^^vcard:locality ;
+	vcard:hasTelephone "968 27 43 90"^^vcard:tel ;
+	vcard:hasURL "http://museodelaciudad.murcia.es/"^^vcard:url .
+
+<http://museosdemurciaa.es/Museo+de+la+Ciudad> rdfs:label "Museo de la Ciudad" .
+
+<http://museosdemurciaa.es/Murcia> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Murcia" ;
+	owl:sameAs "http://dbpedia.org/resource/Murcia" .
+
+<http://museosdemurciaa.es/MURCIA> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "MURCIA" ;
+	owl:sameAs "http://dbpedia.org/resource/Murcia" .
+
+<http://museosdemurciaa.es/81> rdfs:label "Museo de la Cofradía de la Oración del Huerto y Santo Sepulcro" ;
+	vcard:hasAddress "C/ Cartas, s/n"^^vcard:address ;
+	vcard:hasRegion "Cieza"^^vcard:region ;
+	vcard:hasLocality "CIEZA"^^vcard:locality ;
+	vcard:hasTelephone "968 453 500"^^vcard:tel .
+
+<http://museosdemurciaa.es/Museo+de+la+Cofrad%C3%ADa+de+la+Oraci%C3%B3n+del+Huerto+y+Santo+Sepulcro> rdfs:label "Museo de la Cofradía de la Oración del Huerto y Santo Sepulcro" .
+
+<http://museosdemurciaa.es/Cieza> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Cieza" .
+
+<http://museosdemurciaa.es/CIEZA> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "CIEZA" .
+
+<http://museosdemurciaa.es/16> rdfs:label "Museo de la Fiesta" ;
+	vcard:hasAddress "C/ Las Monjas, 19"^^vcard:address ;
+	vcard:hasRegion "Jumilla"^^vcard:region ;
+	vcard:hasLocality "Jumilla"^^vcard:locality ;
+	vcard:hasTelephone "968 70 56 20"^^vcard:tel ;
+	vcard:hasURL "www.turismocaravaca.com"^^vcard:url .
+
+<http://museosdemurciaa.es/Museo+de+la+Fiesta> rdfs:label "Museo de la Fiesta" .
+
+<http://museosdemurciaa.es/Jumilla> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Jumilla" ;
+	owl:sameAs "http://dbpedia.org/resource/Jumilla" ;
+	a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Jumilla" ;
+	owl:sameAs "http://dbpedia.org/resource/Jumilla" .
+
+<http://museosdemurciaa.es/108> rdfs:label "Museo de la Música Étnica de Barranda" ;
+	vcard:hasAddress "C/ Pedrera, s/n"^^vcard:address ;
+	vcard:hasRegion "Jumilla"^^vcard:region ;
+	vcard:hasLocality "BARRANDA"^^vcard:locality ;
+	vcard:hasTelephone "968 738 491"^^vcard:tel ;
+	vcard:hasURL "http://museomusicaetnica.com/"^^vcard:url .
+
+<http://museosdemurciaa.es/Museo+de+la+M%C3%BAsica+%C3%89tnica+de+Barranda> rdfs:label "Museo de la Música Étnica de Barranda" .
+
+<http://museosdemurciaa.es/Jumilla> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Jumilla" ;
+	owl:sameAs "http://dbpedia.org/resource/Jumilla" .
+
+<http://museosdemurciaa.es/BARRANDA> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "BARRANDA" ;
+	owl:sameAs "http://dbpedia.org/resource/Barranda" .
+
+<http://museosdemurciaa.es/94> vcard:hasAddress "Pza. de la Constitución"^^vcard:address ;
+	rdfs:label "Museo de la Policia Local" ;
+	vcard:hasRegion "Totana"^^vcard:region ;
+	vcard:hasLocality "TOTANA"^^vcard:locality ;
+	vcard:hasTelephone "968 418 181"^^vcard:tel , "968 418 182"^^vcard:Fax ;
+	vcard:hasURL "http://www.totana.com/museo-policia"^^vcard:url .
+
+<http://museosdemurciaa.es/Museo+de+la+Policia+Local> rdfs:label "Museo de la Policia Local" .
+
+<http://museosdemurciaa.es/Totana> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Totana" ;
+	owl:sameAs "http://dbpedia.org/resource/Totana" .
+
+<http://museosdemurciaa.es/TOTANA> owl:sameAs "http://dbpedia.org/resource/Totana" ;
+	a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "TOTANA" .
+
+<http://museosdemurciaa.es/83> rdfs:label "Museo de la Real Cofradía de Nuestra Señora de Gracia y Esperanza" ;
+	vcard:hasAddress "C/ Diego Tortosa, s/n"^^vcard:address ;
+	vcard:hasRegion "Cieza"^^vcard:region ;
+	vcard:hasLocality "CIEZA"^^vcard:locality ;
+	vcard:hasTelephone "968 453 500"^^vcard:tel .
+
+<http://museosdemurciaa.es/Museo+de+la+Real+Cofrad%C3%ADa+de+Nuestra+Se%C3%B1ora+de+Gracia+y+Esperanza> rdfs:label "Museo de la Real Cofradía de Nuestra Señora de Gracia y Esperanza" .
+
+<http://museosdemurciaa.es/Cieza> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Cieza" .
+
+<http://museosdemurciaa.es/CIEZA> rdfs:label "CIEZA" ;
+	a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> .
+
+<http://museosdemurciaa.es/5360> rdfs:label "MUSEO DE LA TORRE DE SANTIAGO" ;
+	vcard:hasAddress "Plaza Consitución, s/n"^^vcard:address ;
+	vcard:hasRegion "Totana"^^vcard:region ;
+	vcard:hasLocality "TOTANA"^^vcard:locality ;
+	vcard:hasTelephone "968 420 112"^^vcard:tel .
+
+<http://museosdemurciaa.es/MUSEO+DE+LA+TORRE+DE+SANTIAGO> rdfs:label "MUSEO DE LA TORRE DE SANTIAGO" .
+
+<http://museosdemurciaa.es/Totana> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Totana" ;
+	owl:sameAs "http://dbpedia.org/resource/Totana" .
+
+<http://museosdemurciaa.es/TOTANA> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "TOTANA" ;
+	owl:sameAs "http://dbpedia.org/resource/Totana" .
+
+<http://museosdemurciaa.es/105> vcard:hasAddress "C/ Cartagena s/n, Pabellón 4, Antiguo Cuartel de Artillería"^^vcard:address ;
+	rdfs:label "Museo de la Universidad de Murcia" ;
+	vcard:hasRegion "Murcia"^^vcard:region ;
+	vcard:hasLocality "MURCIA"^^vcard:locality ;
+	vcard:hasTelephone "868 88 85 61"^^vcard:tel ;
+	vcard:hasURL "www.um.es/web/museo"^^vcard:url .
+
+<http://museosdemurciaa.es/Museo+de+la+Universidad+de+Murcia> rdfs:label "Museo de la Universidad de Murcia" .
+
+<http://museosdemurciaa.es/Murcia> rdfs:label "Murcia" ;
+	a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	owl:sameAs "http://dbpedia.org/resource/Murcia" .
+
+<http://museosdemurciaa.es/MURCIA> rdfs:label "MURCIA" ;
+	a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	owl:sameAs "http://dbpedia.org/resource/Murcia" .
+
+<http://museosdemurciaa.es/25> vcard:hasTelephone "968 70 56 20"^^vcard:tel ;
+	vcard:hasRegion "Jumilla"^^vcard:region ;
+	vcard:hasLocality "Jumilla"^^vcard:locality ;
+	rdfs:label "Museo de la Vera Cruz" ;
+	vcard:hasAddress "Castillo, Santuario de la Vera Cruz"^^vcard:address ;
+	vcard:hasURL "www.turismocaravaca.com"^^vcard:url .
+
+<http://museosdemurciaa.es/Museo+de+la+Vera+Cruz> rdfs:label "Museo de la Vera Cruz" .
+
+<http://museosdemurciaa.es/Jumilla> rdfs:label "Jumilla" ;
+	owl:sameAs "http://dbpedia.org/resource/Jumilla" ;
+	a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> , <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Jumilla" ;
+	owl:sameAs "http://dbpedia.org/resource/Jumilla" .
+
+<http://museosdemurciaa.es/4695> rdfs:label "Museo de Moros y Cristianos de Murcia" ;
+	vcard:hasAddress "C/ Cartagena s/n (1º planta del Pabellón II, Antiguo Cuartel de Artillería)"^^vcard:address ;
+	vcard:hasRegion "Murcia"^^vcard:region ;
+	vcard:hasTelephone "868 04 45 70"^^vcard:tel ;
+	vcard:hasURL "http://morosycristianosmurcia.es/"^^vcard:url .
+
+<http://museosdemurciaa.es/Museo+de+Moros+y+Cristianos+de+Murcia> rdfs:label "Museo de Moros y Cristianos de Murcia" .
+
+<http://museosdemurciaa.es/Murcia> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Murcia" ;
+	owl:sameAs "http://dbpedia.org/resource/Murcia" .
+
+<http://museosdemurciaa.es/90> rdfs:label "Museo de Réplicas de El Greco" ;
+	vcard:hasAddress "C/ España, 37 (Casa de la Cultura)"^^vcard:address ;
+	vcard:hasRegion "Yecla"^^vcard:region ;
+	vcard:hasLocality "YECLA"^^vcard:locality ;
+	vcard:hasTelephone "968 790 901"^^vcard:tel ;
+	vcard:hasURL "http://turismo.yecla.es/portfolio/museos/museo-replicas-greco/"^^vcard:url .
+
+<http://museosdemurciaa.es/Museo+de+R%C3%A9plicas+de+El+Greco> rdfs:label "Museo de Réplicas de El Greco" .
+
+<http://museosdemurciaa.es/Yecla> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Yecla" .
+
+<http://museosdemurciaa.es/YECLA> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "YECLA" .
+
+<http://museosdemurciaa.es/102> rdfs:label "Museo de Santa Clara" ;
+	vcard:hasAddress "Avenida Alfonso X el Sabio, 2"^^vcard:address ;
+	vcard:hasRegion "Murcia"^^vcard:region ;
+	vcard:hasLocality "MURCIA"^^vcard:locality ;
+	vcard:hasTelephone "968 27 23 98"^^vcard:tel ;
+	vcard:hasURL "www.museosregiondemurcia.es"^^vcard:url .
+
+<http://museosdemurciaa.es/Museo+de+Santa+Clara> rdfs:label "Museo de Santa Clara" .
+
+<http://museosdemurciaa.es/Murcia> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Murcia" ;
+	owl:sameAs "http://dbpedia.org/resource/Murcia" .
+
+<http://museosdemurciaa.es/MURCIA> owl:sameAs "http://dbpedia.org/resource/Murcia" ;
+	a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "MURCIA" .
+
+<http://museosdemurciaa.es/85> rdfs:label "Museo de Semana Santa" ;
+	vcard:hasAddress "C/ San Antón, s/n"^^vcard:address ;
+	vcard:hasRegion "Jumilla"^^vcard:region ;
+	vcard:hasLocality "JUMILLA"^^vcard:locality .
+
+<http://museosdemurciaa.es/Museo+de+Semana+Santa> rdfs:label "Museo de Semana Santa" ;
+	owl:sameAs "http://www.wikidata.org/entity/Q6034124" .
+
+<http://museosdemurciaa.es/Jumilla> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Jumilla" ;
+	owl:sameAs "http://dbpedia.org/resource/Jumilla" .
+
+<http://museosdemurciaa.es/JUMILLA> rdfs:label "JUMILLA" ;
+	owl:sameAs "http://dbpedia.org/resource/Jumilla" ;
+	a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> .
+
+<http://museosdemurciaa.es/78> rdfs:label "Museo de Semana Santa" ;
+	vcard:hasAddress "Pza. de la Iglesia de la Asunción (Iglesia Vieja)"^^vcard:address ;
+	vcard:hasRegion "Yecla"^^vcard:region ;
+	vcard:hasLocality "YECLA"^^vcard:locality ;
+	vcard:hasTelephone "606 082 309"^^vcard:tel ;
+	vcard:hasURL "http://www.semanasantayecla.com"^^vcard:url .
+
+<http://museosdemurciaa.es/Museo+de+Semana+Santa> rdfs:label "Museo de Semana Santa" ;
+	owl:sameAs "http://www.wikidata.org/entity/Q6034124" .
+
+<http://museosdemurciaa.es/Yecla> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Yecla" .
+
+<http://museosdemurciaa.es/YECLA> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "YECLA" .
+
+<http://museosdemurciaa.es/33> vcard:hasAddress "C/ San Sebastián, 17"^^vcard:address ;
+	rdfs:label "Museo de Siyasa" ;
+	vcard:hasRegion "Cieza"^^vcard:region ;
+	vcard:hasLocality "CIEZA"^^vcard:locality ;
+	vcard:hasTelephone "968 773 153"^^vcard:tel , "968 773 153"^^vcard:Fax .
+
+<http://museosdemurciaa.es/Museo+de+Siyasa> rdfs:label "Museo de Siyasa" .
+
+<http://museosdemurciaa.es/Cieza> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Cieza" .
+
+<http://museosdemurciaa.es/CIEZA> rdfs:label "CIEZA" ;
+	a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> .
+
+<http://museosdemurciaa.es/74> vcard:hasLocality "CALASPARRA"^^vcard:locality ;
+	vcard:hasTelephone "968 745 325"^^vcard:tel ;
+	rdfs:label "Museo del Arroz" ;
+	vcard:hasAddress "C/Mayor, 14"^^vcard:address ;
+	vcard:hasRegion "Calasparra"^^vcard:region ;
+	vcard:hasTelephone "968 745 325"^^vcard:Fax ;
+	vcard:hasURL "www.turismocalasparra.es"^^vcard:url .
+
+<http://museosdemurciaa.es/Museo+del+Arroz> rdfs:label "Museo del Arroz" .
+
+<http://museosdemurciaa.es/Calasparra> rdfs:label "Calasparra" ;
+	a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> .
+
+<http://museosdemurciaa.es/CALASPARRA> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "CALASPARRA" .
+
+<http://museosdemurciaa.es/48> vcard:hasAddress "Ctra. Cartagena s/n"^^vcard:address ;
+	vcard:hasRegion "San Javier"^^vcard:region ;
+	rdfs:label "Museo del Belén de San Javier" ;
+	vcard:hasLocality "SAN JAVIER"^^vcard:locality ;
+	vcard:hasTelephone "968 573 700 ext. 5105"^^vcard:tel ;
+	vcard:hasURL "http://www.sanjavier.es/contenidos.php?id=25"^^vcard:url .
+
+<http://museosdemurciaa.es/Museo+del+Bel%C3%A9n+de+San+Javier> rdfs:label "Museo del Belén de San Javier" .
+
+<http://museosdemurciaa.es/San+Javier> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "San Javier" .
+
+<http://museosdemurciaa.es/SAN+JAVIER> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "SAN JAVIER" .
+
+<http://museosdemurciaa.es/5594> vcard:hasAddress "Calle San Roque"^^vcard:address ;
+	vcard:hasRegion "Lorca"^^vcard:region ;
+	rdfs:label "Museo del Belén. Ermita de San Roque" ;
+	vcard:hasTelephone "968 44 19 14"^^vcard:tel .
+
+<http://museosdemurciaa.es/Museo+del+Bel%C3%A9n.+Ermita+de+San+Roque> rdfs:label "Museo del Belén. Ermita de San Roque" .
+
+<http://museosdemurciaa.es/Lorca> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Lorca" .
+
+<http://museosdemurciaa.es/84> rdfs:label "Museo del Cante de las Minas" ;
+	vcard:hasAddress "Casa del Piñón, en la C/ Mayor, 55"^^vcard:address ;
+	vcard:hasRegion "La Unión"^^vcard:region ;
+	vcard:hasLocality "LA UNIÓN"^^vcard:locality ;
+	vcard:hasTelephone "968 541 614"^^vcard:tel .
+
+<http://museosdemurciaa.es/Museo+del+Cante+de+las+Minas> rdfs:label "Museo del Cante de las Minas" .
+
+<http://museosdemurciaa.es/La+Uni%C3%B3n> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "La Unión" .
+
+<http://museosdemurciaa.es/LA+UNI%C3%93N> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "LA UNIÓN" .
+
+<http://museosdemurciaa.es/37> rdfs:label "Museo del Convento de Santa Ana del Monte de Jumilla" ;
+	vcard:hasAddress "Convento de Santa Ana del Monte"^^vcard:address ;
+	vcard:hasRegion "Jumilla"^^vcard:region ;
+	vcard:hasLocality "JUMILLA"^^vcard:locality ;
+	vcard:hasTelephone "968 435 001"^^vcard:tel .
+
+<http://museosdemurciaa.es/Museo+del+Convento+de+Santa+Ana+del+Monte+de+Jumilla> rdfs:label "Museo del Convento de Santa Ana del Monte de Jumilla" .
+
+<http://museosdemurciaa.es/Jumilla> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Jumilla" ;
+	owl:sameAs "http://dbpedia.org/resource/Jumilla" .
+
+<http://museosdemurciaa.es/JUMILLA> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "JUMILLA" ;
+	owl:sameAs "http://dbpedia.org/resource/Jumilla" .
+
+<http://museosdemurciaa.es/92> rdfs:label "Museo del Esparto" ;
+	vcard:hasAddress "El Garrobillo - Cabezo de la Cruz"^^vcard:address ;
+	vcard:hasRegion "Águilas"^^vcard:region ;
+	vcard:hasLocality "EL GARROBILLO "^^vcard:locality ;
+	vcard:hasTelephone "609 628 784"^^vcard:tel .
+
+<http://museosdemurciaa.es/Museo+del+Esparto> rdfs:label "Museo del Esparto" .
+
+<http://museosdemurciaa.es/Águilas> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Águilas" .
+
+<http://museosdemurciaa.es/EL+GARROBILLO+> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "EL GARROBILLO " .
+
+<http://museosdemurciaa.es/6> rdfs:label "Museo del Ferrocarril" ;
+	vcard:hasAddress "Estación de RENFE de Águilas"^^vcard:address ;
+	vcard:hasRegion "Águilas"^^vcard:region ;
+	vcard:hasLocality "AGUILAS"^^vcard:locality ;
+	vcard:hasTelephone "667 501 488"^^vcard:tel , "968 411 068"^^vcard:Fax ;
+	vcard:hasURL "www.aguilas.es"^^vcard:url .
+
+<http://museosdemurciaa.es/Museo+del+Ferrocarril> rdfs:label "Museo del Ferrocarril" .
+
+<http://museosdemurciaa.es/Águilas> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Águilas" .
+
+<http://museosdemurciaa.es/AGUILAS> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "AGUILAS" .
+
+<http://museosdemurciaa.es/88> rdfs:label "Museo del Ferrocarril" ;
+	vcard:hasAddress "Pza. Industria (Estación Renfe Murcia del Carmen)"^^vcard:address ;
+	vcard:hasTelephone "968 255 475"^^vcard:tel ;
+	vcard:hasRegion "Murcia"^^vcard:region ;
+	vcard:hasLocality "MURCIA"^^vcard:locality .
+
+<http://museosdemurciaa.es/Museo+del+Ferrocarril> rdfs:label "Museo del Ferrocarril" .
+
+<http://museosdemurciaa.es/Murcia> rdfs:label "Murcia" ;
+	a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	owl:sameAs "http://dbpedia.org/resource/Murcia" .
+
+<http://museosdemurciaa.es/MURCIA> owl:sameAs "http://dbpedia.org/resource/Murcia" ;
+	a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "MURCIA" .
+
+<http://museosdemurciaa.es/7> rdfs:label "Museo del Fútbol Aguileño" ;
+	vcard:hasAddress "Muñoz Calero, 22"^^vcard:address ;
+	vcard:hasRegion "Águilas"^^vcard:region ;
+	vcard:hasLocality "AGUILAS"^^vcard:locality ;
+	vcard:hasTelephone "968 413 906"^^vcard:tel , "968 413 906"^^vcard:Fax .
+
+<http://museosdemurciaa.es/Museo+del+F%C3%BAtbol+Aguile%C3%B1o> rdfs:label "Museo del Fútbol Aguileño" .
+
+<http://museosdemurciaa.es/Águilas> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Águilas" .
+
+<http://museosdemurciaa.es/AGUILAS> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "AGUILAS" .
+
+<http://museosdemurciaa.es/6105> vcard:hasAddress "Plaza de la Iglesia, bajo"^^vcard:address ;
+	vcard:hasRegion "Moratalla"^^vcard:region ;
+	rdfs:label "MUSEO DEL TAMBOR" ;
+	vcard:hasURL "http://www.tamboresmoratalla.es/"^^vcard:url .
+
+<http://museosdemurciaa.es/MUSEO+DEL+TAMBOR> rdfs:label "MUSEO DEL TAMBOR" .
+
+<http://museosdemurciaa.es/Moratalla> rdfs:label "Moratalla" ;
+	a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	owl:sameAs "http://dbpedia.org/resource/Moratalla,_Murcia" .
+
+<http://museosdemurciaa.es/141> rdfs:label "Museo del Teatro Romano" ;
+	vcard:hasAddress "Pza. del Ayuntamiento, 9"^^vcard:address ;
+	vcard:hasRegion "Cartagena"^^vcard:region ;
+	vcard:hasLocality "CARTAGENA"^^vcard:locality ;
+	vcard:hasTelephone "968 525 149"^^vcard:tel ;
+	vcard:hasURL "www.teatroromanocartagena.org"^^vcard:url .
+
+<http://museosdemurciaa.es/Museo+del+Teatro+Romano> rdfs:label "Museo del Teatro Romano" .
+
+<http://museosdemurciaa.es/Cartagena> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Cartagena" .
+
+<http://museosdemurciaa.es/CARTAGENA> rdfs:label "CARTAGENA" ;
+	a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> .
+
+<http://museosdemurciaa.es/4831> vcard:hasAddress "C/ Monroy, 19"^^vcard:address ;
+	vcard:hasRegion "Cartagena"^^vcard:region ;
+	rdfs:label "Museo del Vidrio de Santa Lucía" ;
+	vcard:hasTelephone "679 154 036 / 968 501 069"^^vcard:tel .
+
+<http://museosdemurciaa.es/Museo+del+Vidrio+de+Santa+Luc%C3%ADa> rdfs:label "Museo del Vidrio de Santa Lucía" .
+
+<http://museosdemurciaa.es/Cartagena> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Cartagena" .
+
+<http://museosdemurciaa.es/79> rdfs:label "Museo del Vino de Bullas" ;
+	vcard:hasAddress "Avda. de Murcia, 75"^^vcard:address ;
+	vcard:hasRegion "Bullas"^^vcard:region ;
+	vcard:hasLocality "BULLAS"^^vcard:locality ;
+	vcard:hasTelephone "968 657 211"^^vcard:tel ;
+	vcard:hasURL "http://rvbullas.es/rutadelvino/portfolio/museo-del-vino/"^^vcard:url .
+
+<http://museosdemurciaa.es/Museo+del+Vino+de+Bullas> rdfs:label "Museo del Vino de Bullas" .
+
+<http://museosdemurciaa.es/Bullas> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Bullas" ;
+	owl:sameAs "http://dbpedia.org/resource/Bullas" .
+
+<http://museosdemurciaa.es/BULLAS> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "BULLAS" ;
+	owl:sameAs "http://dbpedia.org/resource/Bullas" .
+
+<http://museosdemurciaa.es/93> rdfs:label "Museo Etnográfico Carlos Soriano" ;
+	vcard:hasAddress "Pza. de la Ermita, s/n"^^vcard:address ;
+	vcard:hasRegion "Molina de Segura"^^vcard:region ;
+	vcard:hasLocality "EL LLANO "^^vcard:locality ;
+	vcard:hasTelephone "968 692 019"^^vcard:tel , "968 692 019"^^vcard:Fax .
+
+<http://museosdemurciaa.es/Museo+Etnogr%C3%A1fico+Carlos+Soriano> rdfs:label "Museo Etnográfico Carlos Soriano" .
+
+<http://museosdemurciaa.es/Molina+de+Segura> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Molina de Segura" ;
+	owl:sameAs "http://dbpedia.org/resource/Molina_de_Segura" .
+
+<http://museosdemurciaa.es/EL+LLANO+> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "EL LLANO " .
+
+<http://museosdemurciaa.es/109> vcard:hasLocality "Jumilla"^^vcard:locality ;
+	vcard:hasTelephone "968 70 56 20"^^vcard:tel ;
+	rdfs:label "Museo Etnográfico en Miniatura 'Ángel Reinón'" ;
+	vcard:hasAddress "C/ Puentecilla, 3 bajo"^^vcard:address ;
+	vcard:hasRegion "Jumilla"^^vcard:region ;
+	vcard:hasURL "www.turismocaravaca.com"^^vcard:url .
+
+<http://museosdemurciaa.es/Museo+Etnogr%C3%A1fico+en+Miniatura+%27%C3%81ngel+Rein%C3%B3n%27> rdfs:label "Museo Etnográfico en Miniatura 'Ángel Reinón'" .
+
+<http://museosdemurciaa.es/Jumilla> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Jumilla" ;
+	owl:sameAs "http://dbpedia.org/resource/Jumilla" ;
+	a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Jumilla" ;
+	owl:sameAs "http://dbpedia.org/resource/Jumilla" .
+
+<http://museosdemurciaa.es/21> vcard:hasTelephone "968 692 540"^^vcard:tel ;
+	rdfs:label "Museo Etnológico de Ceutí" ;
+	vcard:hasAddress "Avda. de Lorquí, s/n"^^vcard:address ;
+	vcard:hasRegion "Ceutí"^^vcard:region ;
+	vcard:hasLocality "CEUTI"^^vcard:locality .
+
+<http://museosdemurciaa.es/Museo+Etnol%C3%B3gico+de+Ceut%C3%AD> rdfs:label "Museo Etnológico de Ceutí" .
+
+<http://museosdemurciaa.es/Ceutí> rdfs:label "Ceutí" ;
+	a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> .
+
+<http://museosdemurciaa.es/CEUTI> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "CEUTI" .
+
+<http://museosdemurciaa.es/59> vcard:hasAddress "Avda. Príncipe, s/n"^^vcard:address ;
+	vcard:hasRegion "Alcantarilla"^^vcard:region ;
+	rdfs:label "Museo Etnológico de la Huerta de Alcantarilla" ;
+	vcard:hasLocality "ALCANTARILLA"^^vcard:locality ;
+	vcard:hasTelephone "968 893 866"^^vcard:tel ;
+	vcard:hasURL "http://www.alcantarilla.es"^^vcard:url .
+
+<http://museosdemurciaa.es/Museo+Etnol%C3%B3gico+de+la+Huerta+de+Alcantarilla> rdfs:label "Museo Etnológico de la Huerta de Alcantarilla" .
+
+<http://museosdemurciaa.es/Alcantarilla> rdfs:label "Alcantarilla" ;
+	a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	owl:sameAs "http://dbpedia.org/resource/Alcantarilla" .
+
+<http://museosdemurciaa.es/ALCANTARILLA> rdfs:label "ALCANTARILLA" ;
+	a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	owl:sameAs "http://dbpedia.org/resource/Alcantarilla" .
+
+<http://museosdemurciaa.es/100> vcard:hasRegion "La Unión"^^vcard:region ;
+	vcard:hasLocality "ROCHE"^^vcard:locality ;
+	vcard:hasTelephone "968 541 614"^^vcard:tel ;
+	rdfs:label "Museo Etnológico de Roche" ;
+	vcard:hasAddress "Avda. M. Cano Vicedo, s/n"^^vcard:address .
+
+<http://museosdemurciaa.es/Museo+Etnol%C3%B3gico+de+Roche> rdfs:label "Museo Etnológico de Roche" .
+
+<http://museosdemurciaa.es/La+Uni%C3%B3n> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "La Unión" .
+
+<http://museosdemurciaa.es/ROCHE> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "ROCHE" .
+
+<http://museosdemurciaa.es/4800> vcard:hasAddress "C/ Cid Campeador, 2 - Esquina calle del Castillo, s/n."^^vcard:address ;
+	vcard:hasRegion "Molina de Segura"^^vcard:region ;
+	rdfs:label "MUSEO HORNO DEL CONCEJO Y CASA DEL FOLCLORE" .
+
+<http://museosdemurciaa.es/MUSEO+HORNO+DEL+CONCEJO+Y+CASA+DEL+FOLCLORE> rdfs:label "MUSEO HORNO DEL CONCEJO Y CASA DEL FOLCLORE" .
+
+<http://museosdemurciaa.es/Molina+de+Segura> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Molina de Segura" ;
+	owl:sameAs "http://dbpedia.org/resource/Molina_de_Segura" .
+
+<http://museosdemurciaa.es/24> rdfs:label "Museo Mariano Virgen del Castillo" ;
+	vcard:hasAddress "Junto al Santuario del Castillo."^^vcard:address ;
+	vcard:hasRegion "Yecla"^^vcard:region ;
+	vcard:hasLocality "YECLA"^^vcard:locality ;
+	vcard:hasTelephone "968 794 850"^^vcard:tel ;
+	vcard:hasURL "http://www.asociaciondemayordomos.com"^^vcard:url .
+
+<http://museosdemurciaa.es/Museo+Mariano+Virgen+del+Castillo> rdfs:label "Museo Mariano Virgen del Castillo" .
+
+<http://museosdemurciaa.es/Yecla> rdfs:label "Yecla" ;
+	a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> .
+
+<http://museosdemurciaa.es/YECLA> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "YECLA" .
+
+<http://museosdemurciaa.es/56> vcard:hasRegion "Cartagena"^^vcard:region ;
+	vcard:hasLocality "CARTAGENA"^^vcard:locality ;
+	rdfs:label "Museo Militar. Sección Delegada del Museo Militar Regional de Cartagena" ;
+	vcard:hasAddress "Pza. General López Pinto, s/n"^^vcard:address ;
+	vcard:hasTelephone "968 501 300"^^vcard:tel , "968 321 096"^^vcard:Fax .
+
+<http://museosdemurciaa.es/Museo+Militar.+Secci%C3%B3n+Delegada+del+Museo+Militar+Regional+de+Cartagena> rdfs:label "Museo Militar. Sección Delegada del Museo Militar Regional de Cartagena" .
+
+<http://museosdemurciaa.es/Cartagena> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Cartagena" .
+
+<http://museosdemurciaa.es/CARTAGENA> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "CARTAGENA" .
+
+<http://museosdemurciaa.es/36> vcard:hasAddress "C/ Mayor, 55, Edificio del Liceo de Obreros"^^vcard:address ;
+	vcard:hasRegion "La Unión"^^vcard:region ;
+	rdfs:label "Museo Minero" ;
+	vcard:hasLocality "LA UNIÓN"^^vcard:locality ;
+	vcard:hasTelephone "968 541 614"^^vcard:tel .
+
+<http://museosdemurciaa.es/Museo+Minero> rdfs:label "Museo Minero" .
+
+<http://museosdemurciaa.es/La+Uni%C3%B3n> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "La Unión" .
+
+<http://museosdemurciaa.es/LA+UNI%C3%93N> rdfs:label "LA UNIÓN" ;
+	a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> .
+
+<http://museosdemurciaa.es/10> vcard:hasAddress "Paraje del Estrecho. A 1 km de Cieza"^^vcard:address ;
+	vcard:hasRegion "Cieza"^^vcard:region ;
+	rdfs:label "Museo Molino de Teodoro" ;
+	vcard:hasLocality "CIEZA"^^vcard:locality ;
+	vcard:hasTelephone "968 453 500"^^vcard:tel .
+
+<http://museosdemurciaa.es/Museo+Molino+de+Teodoro> rdfs:label "Museo Molino de Teodoro" .
+
+<http://museosdemurciaa.es/Cieza> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Cieza" .
+
+<http://museosdemurciaa.es/CIEZA> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "CIEZA" .
+
+<http://museosdemurciaa.es/35> vcard:hasAddress "Pza. de la Constitución, 3"^^vcard:address ;
+	vcard:hasRegion "Jumilla"^^vcard:region ;
+	rdfs:label "Museo Municipal Jeromino Molina seccion de Etnografia y Ciencias de la Naturaleza" ;
+	vcard:hasLocality "JUMILLA"^^vcard:locality ;
+	vcard:hasTelephone "968 780 740"^^vcard:tel ;
+	vcard:hasURL "www.jumilla.org"^^vcard:url .
+
+<http://museosdemurciaa.es/Museo+Municipal+Jeromino+Molina+seccion+de+Etnografia+y+Ciencias+de+la+Naturaleza> rdfs:label "Museo Municipal Jeromino Molina seccion de Etnografia y Ciencias de la Naturaleza" .
+
+<http://museosdemurciaa.es/Jumilla> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Jumilla" ;
+	owl:sameAs "http://dbpedia.org/resource/Jumilla" .
+
+<http://museosdemurciaa.es/JUMILLA> owl:sameAs "http://dbpedia.org/resource/Jumilla" ;
+	a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "JUMILLA" .
+
+<http://museosdemurciaa.es/128> rdfs:label "Museo Municipal Palacio Barón de Benifayó" ;
+	vcard:hasAddress "Avda. de Orihuela, s/n"^^vcard:address ;
+	vcard:hasRegion "San Pedro del Pinatar"^^vcard:region ;
+	vcard:hasLocality "SAN PEDRO DEL PINATAR"^^vcard:locality ;
+	vcard:hasTelephone "968 187 596"^^vcard:tel ;
+	vcard:hasURL "www.sanpedrodelpinatar.es"^^vcard:url .
+
+<http://museosdemurciaa.es/Museo+Municipal+Palacio+Bar%C3%B3n+de+Benifay%C3%B3> rdfs:label "Museo Municipal Palacio Barón de Benifayó" .
+
+<http://museosdemurciaa.es/San+Pedro+del+Pinatar> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "San Pedro del Pinatar" .
+
+<http://museosdemurciaa.es/SAN+PEDRO+DEL+PINATAR> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "SAN PEDRO DEL PINATAR" .
+
+<http://museosdemurciaa.es/31> vcard:hasAddress "paseo Alfonso XII, 22"^^vcard:address ;
+	vcard:hasRegion "Cartagena"^^vcard:region ;
+	rdfs:label "Museo Nacional de Arqueología Subacuática" ;
+	vcard:hasLocality "CARTAGENA"^^vcard:locality ;
+	vcard:hasTelephone "968 121 166"^^vcard:tel , "968 529 692"^^vcard:Fax ;
+	vcard:hasURL "http://museoarqua.mcu.es"^^vcard:url .
+
+<http://museosdemurciaa.es/Museo+Nacional+de+Arqueolog%C3%ADa+Subacu%C3%A1tica> rdfs:label "Museo Nacional de Arqueología Subacuática" .
+
+<http://museosdemurciaa.es/Cartagena> rdfs:label "Cartagena" ;
+	a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> .
+
+<http://museosdemurciaa.es/CARTAGENA> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "CARTAGENA" .
+
+<http://museosdemurciaa.es/32> vcard:hasLocality "CARTAGENA"^^vcard:locality ;
+	vcard:hasRegion "Cartagena"^^vcard:region ;
+	rdfs:label "Museo Naval de Cartagena" ;
+	vcard:hasAddress "C/ Alfonso XII, frente Dársena Botes. Bajos antiguo CIM"^^vcard:address ;
+	vcard:hasTelephone "968 127 138"^^vcard:tel , "968 127 138"^^vcard:Fax .
+
+<http://museosdemurciaa.es/Museo+Naval+de+Cartagena> rdfs:label "Museo Naval de Cartagena" ;
+	owl:sameAs "http://www.wikidata.org/entity/Q3330747" .
+
+<http://museosdemurciaa.es/Cartagena> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Cartagena" .
+
+<http://museosdemurciaa.es/CARTAGENA> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "CARTAGENA" .
+
+<http://museosdemurciaa.es/3> vcard:hasRegion "Murcia"^^vcard:region ;
+	vcard:hasTelephone "968 822 980"^^vcard:tel ;
+	rdfs:label "Museo Paleontológico" ;
+	vcard:hasAddress "I.E.S.  Severo Ochoa - Camino Tiñosa, 50"^^vcard:address ;
+	vcard:hasURL "http://www.educarm.es/paleontologia/"^^vcard:url .
+
+<http://museosdemurciaa.es/Museo+Paleontol%C3%B3gico> rdfs:label "Museo Paleontológico" .
+
+<http://museosdemurciaa.es/Murcia> rdfs:label "Murcia" ;
+	a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	owl:sameAs "http://dbpedia.org/resource/Murcia" .
+
+<http://museosdemurciaa.es/4805> vcard:hasRegion "Alhama de Murcia"^^vcard:region ;
+	vcard:hasLocality "ALHAMA DE MURCIA"^^vcard:locality ;
+	vcard:hasTelephone "609 756921 - 620 247 014"^^vcard:tel ;
+	rdfs:label "Museo Pasos e Imágenes" ;
+	vcard:hasAddress "C/ Fuente Blanca, 18"^^vcard:address .
+
+<http://museosdemurciaa.es/Museo+Pasos+e+Im%C3%A1genes> rdfs:label "Museo Pasos e Imágenes" .
+
+<http://museosdemurciaa.es/Alhama+de+Murcia> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Alhama de Murcia" ;
+	owl:sameAs "http://dbpedia.org/resource/Alhama_de_Murcia" .
+
+<http://museosdemurciaa.es/ALHAMA+DE+MURCIA> owl:sameAs "http://dbpedia.org/resource/Alhama_de_Murcia" ;
+	a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "ALHAMA DE MURCIA" .
+
+<http://museosdemurciaa.es/44> vcard:hasRegion "Murcia"^^vcard:region ;
+	vcard:hasLocality "MURCIA"^^vcard:locality ;
+	vcard:hasTelephone "968 22 10 99"^^vcard:tel ;
+	rdfs:label "Museo Ramón Gaya" ;
+	vcard:hasAddress "Pza. Santa Catalina, s/n"^^vcard:address ;
+	vcard:hasURL "www.museoramongaya.es"^^vcard:url .
+
+<http://museosdemurciaa.es/Museo+Ram%C3%B3n+Gaya> rdfs:label "Museo Ramón Gaya" .
+
+<http://museosdemurciaa.es/Murcia> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Murcia" ;
+	owl:sameAs "http://dbpedia.org/resource/Murcia" .
+
+<http://museosdemurciaa.es/MURCIA> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "MURCIA" ;
+	owl:sameAs "http://dbpedia.org/resource/Murcia" .
+
+<http://museosdemurciaa.es/61> rdfs:label "Museo Regional de Arte Moderno MURAM" ;
+	vcard:hasAddress "Pza. de la Merced, 15-16"^^vcard:address ;
+	vcard:hasRegion "Cartagena"^^vcard:region ;
+	vcard:hasLocality "CARTAGENA"^^vcard:locality ;
+	vcard:hasTelephone "968 501 607"^^vcard:tel ;
+	vcard:hasURL "www.museosregiondemurcia.es/"^^vcard:url .
+
+<http://museosdemurciaa.es/Museo+Regional+de+Arte+Moderno+MURAM> rdfs:label "Museo Regional de Arte Moderno MURAM" .
+
+<http://museosdemurciaa.es/Cartagena> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Cartagena" .
+
+<http://museosdemurciaa.es/CARTAGENA> rdfs:label "CARTAGENA" ;
+	a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> .
+
+<http://museosdemurciaa.es/23> vcard:hasLocality "LA PALMA "^^vcard:locality ;
+	vcard:hasRegion "Cartagena"^^vcard:region ;
+	rdfs:label "Museo Regional del Bolillo" ;
+	vcard:hasAddress "C/ De la Marina, 14"^^vcard:address ;
+	vcard:hasTelephone "968. 554. 045"^^vcard:tel .
+
+<http://museosdemurciaa.es/Museo+Regional+del+Bolillo> rdfs:label "Museo Regional del Bolillo" .
+
+<http://museosdemurciaa.es/Cartagena> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Cartagena" .
+
+<http://museosdemurciaa.es/LA+PALMA+> rdfs:label "LA PALMA " ;
+	a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> .
+
+<http://museosdemurciaa.es/45> vcard:hasLocality "MURCIA"^^vcard:locality ;
+	vcard:hasTelephone "968 29 18 93"^^vcard:tel ;
+	rdfs:label "Museo Salzillo" ;
+	vcard:hasAddress "Pza. San Agustín, 3"^^vcard:address ;
+	vcard:hasRegion "Murcia"^^vcard:region ;
+	vcard:hasURL "http://www.museosalzillo.es"^^vcard:url .
+
+<http://museosdemurciaa.es/Museo+Salzillo> rdfs:label "Museo Salzillo" ;
+	owl:sameAs "http://www.wikidata.org/entity/Q11694542" .
+
+<http://museosdemurciaa.es/Murcia> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Murcia" ;
+	owl:sameAs "http://dbpedia.org/resource/Murcia" .
+
+<http://museosdemurciaa.es/MURCIA> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "MURCIA" ;
+	owl:sameAs "http://dbpedia.org/resource/Murcia" .
+
+<http://museosdemurciaa.es/49> rdfs:label "Museo Taurino" ;
+	vcard:hasAddress "C/ Francisco Rabal, 3"^^vcard:address ;
+	vcard:hasRegion "Murcia"^^vcard:region ;
+	vcard:hasLocality "MURCIA"^^vcard:locality ;
+	vcard:hasTelephone "968 285 976"^^vcard:tel , "968 284 154"^^vcard:Fax ;
+	vcard:hasURL "http://turismo.yecla.es/portfolio/museos/museo-taurino/"^^vcard:url .
+
+<http://museosdemurciaa.es/Museo+Taurino> rdfs:label "Museo Taurino" .
+
+<http://museosdemurciaa.es/Murcia> owl:sameAs "http://dbpedia.org/resource/Murcia" ;
+	a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Murcia" .
+
+<http://museosdemurciaa.es/MURCIA> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "MURCIA" ;
+	owl:sameAs "http://dbpedia.org/resource/Murcia" .
+
+<http://museosdemurciaa.es/97> rdfs:label "Museo Taurino de Yecla" ;
+	vcard:hasAddress "C/ Tejeras, Plaza de toros."^^vcard:address ;
+	vcard:hasRegion "Yecla"^^vcard:region ;
+	vcard:hasLocality "YECLA"^^vcard:locality ;
+	vcard:hasTelephone "968 752 254"^^vcard:tel ;
+	vcard:hasURL "www.ayuntamientoyecla.com/museos.htm"^^vcard:url .
+
+<http://museosdemurciaa.es/Museo+Taurino+de+Yecla> rdfs:label "Museo Taurino de Yecla" .
+
+<http://museosdemurciaa.es/Yecla> rdfs:label "Yecla" ;
+	a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> .
+
+<http://museosdemurciaa.es/YECLA> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "YECLA" .
+
+<http://museosdemurciaa.es/87> vcard:hasLocality "LORCA"^^vcard:locality ;
+	vcard:hasTelephone "679 162 176"^^vcard:tel ;
+	rdfs:label "NICOLÁS SALZILLO IL MAESTRO MUSEO DE BORDADOS PASO MORADO" ;
+	vcard:hasAddress "C/ Nogalte"^^vcard:address ;
+	vcard:hasRegion "Lorca"^^vcard:region ;
+	vcard:hasURL "www.pasomorado.com"^^vcard:url .
+
+<http://museosdemurciaa.es/NICOL%C3%81S+SALZILLO+IL+MAESTRO+MUSEO+DE+BORDADOS+PASO+MORADO> rdfs:label "NICOLÁS SALZILLO IL MAESTRO MUSEO DE BORDADOS PASO MORADO" .
+
+<http://museosdemurciaa.es/Lorca> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Lorca" .
+
+<http://museosdemurciaa.es/LORCA> rdfs:label "LORCA" ;
+	a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> .
+
+<http://museosdemurciaa.es/96> vcard:hasRegion "Lorca"^^vcard:region ;
+	vcard:hasLocality "TORRECILLA"^^vcard:locality ;
+	rdfs:label "Parque Arqueológico Los Cipreses" ;
+	vcard:hasAddress "Junto al Polideportivo de la Torrecilla"^^vcard:address ;
+	vcard:hasTelephone "968 406 267"^^vcard:tel .
+
+<http://museosdemurciaa.es/Parque+Arqueol%C3%B3gico+Los+Cipreses> rdfs:label "Parque Arqueológico Los Cipreses" .
+
+<http://museosdemurciaa.es/Lorca> rdfs:label "Lorca" ;
+	a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> .
+
+<http://museosdemurciaa.es/TORRECILLA> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "TORRECILLA" .
+
+<http://museosdemurciaa.es/2> vcard:hasLocality "CIEZA"^^vcard:locality ;
+	vcard:hasTelephone "968 767 415"^^vcard:tel ;
+	rdfs:label "Pequeño Museo del Esparto" ;
+	vcard:hasAddress "C/ de Pablo Iglesias, 53"^^vcard:address ;
+	vcard:hasRegion "Cieza"^^vcard:region .
+
+<http://museosdemurciaa.es/Peque%C3%B1o+Museo+del+Esparto> rdfs:label "Pequeño Museo del Esparto" .
+
+<http://museosdemurciaa.es/Cieza> rdfs:label "Cieza" ;
+	a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> .
+
+<http://museosdemurciaa.es/CIEZA> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "CIEZA" .
+
+<http://museosdemurciaa.es/131> vcard:hasRegion "Cartagena"^^vcard:region ;
+	vcard:hasLocality "CARTAGENA"^^vcard:locality ;
+	rdfs:label "Refugio Museo de la Guerra Civil" ;
+	vcard:hasAddress "C/ Gisbert, s/n"^^vcard:address ;
+	vcard:hasTelephone "968 500 093"^^vcard:tel , "968 52 92 98"^^vcard:Fax ;
+	vcard:hasURL "http://www.cartagenapuertodeculturas.com"^^vcard:url .
+
+<http://museosdemurciaa.es/Refugio+Museo+de+la+Guerra+Civil> owl:sameAs "http://www.wikidata.org/entity/Q6103589" ;
+	rdfs:label "Refugio Museo de la Guerra Civil" .
+
+<http://museosdemurciaa.es/Cartagena> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Cartagena" .
+
+<http://museosdemurciaa.es/CARTAGENA> rdfs:label "CARTAGENA" ;
+	a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> .
+
+<http://museosdemurciaa.es/68> rdfs:label "Sala de Exposiciones Casa de la Cultura" ;
+	vcard:hasAddress "C/  Begastri, 7"^^vcard:address ;
+	vcard:hasRegion "Cehegín"^^vcard:region ;
+	vcard:hasTelephone "968 740 837"^^vcard:tel .
+
+<http://museosdemurciaa.es/Sala+de+Exposiciones+Casa+de+la+Cultura> rdfs:label "Sala de Exposiciones Casa de la Cultura" .
+
+<http://museosdemurciaa.es/Cehegín> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Cehegín" .
+
+<http://museosdemurciaa.es/89> rdfs:label "Sala Museo de Grafología" ;
+	vcard:hasAddress "Casa de los Duendes."^^vcard:address ;
+	vcard:hasRegion "Puerto Lumbreras"^^vcard:region ;
+	vcard:hasLocality "PUERTO LUMBRERAS"^^vcard:locality ;
+	vcard:hasTelephone "968 402 853"^^vcard:tel ;
+	vcard:hasURL "www.medinanogalte.es"^^vcard:url .
+
+<http://museosdemurciaa.es/Sala+Museo+de+Grafolog%C3%ADa> rdfs:label "Sala Museo de Grafología" .
+
+<http://museosdemurciaa.es/Puerto+Lumbreras> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Puerto Lumbreras" ;
+	owl:sameAs "http://dbpedia.org/resource/Puerto_Lumbreras" .
+
+<http://museosdemurciaa.es/PUERTO+LUMBRERAS> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "PUERTO LUMBRERAS" ;
+	owl:sameAs "http://dbpedia.org/resource/Puerto_Lumbreras" .
+
+<http://museosdemurciaa.es/107> vcard:hasAddress "Casa de la Cultura. Pza. de Asunción Balaguer, s/n"^^vcard:address ;
+	rdfs:label "Sala Museo Jose Matrán" ;
+	vcard:hasRegion "Águilas"^^vcard:region ;
+	vcard:hasLocality "AGUILAS"^^vcard:locality ;
+	vcard:hasTelephone "968 413305"^^vcard:tel .
+
+<http://museosdemurciaa.es/Sala+Museo+Jose+Matr%C3%A1n> rdfs:label "Sala Museo Jose Matrán" .
+
+<http://museosdemurciaa.es/Águilas> rdfs:label "Águilas" ;
+	a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> .
+
+<http://museosdemurciaa.es/AGUILAS> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "AGUILAS" .
+
+<http://museosdemurciaa.es/106> vcard:hasAddress "C/ Canalejas (esquina Quintana)"^^vcard:address ;
+	vcard:hasRegion "Águilas"^^vcard:region ;
+	rdfs:label "Termas Romanas de Águilas" ;
+	vcard:hasLocality "AGUILAS"^^vcard:locality ;
+	vcard:hasTelephone "968 493 287"^^vcard:tel .
+
+<http://museosdemurciaa.es/Termas+Romanas+de+%C3%81guilas> rdfs:label "Termas Romanas de Águilas" .
+
+<http://museosdemurciaa.es/Águilas> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "Águilas" .
+
+<http://museosdemurciaa.es/AGUILAS> a <http://museosdemurciaa.es/+http%3A%2F%2Fdbpedia.org%2Fontology%2FPopulatedPlace> ;
+	rdfs:label "AGUILAS" .
